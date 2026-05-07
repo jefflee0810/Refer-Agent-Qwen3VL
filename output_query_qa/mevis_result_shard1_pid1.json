@@ -1,0 +1,3161 @@
+{
+  "6758d506b300/0": {
+    "exp": "A group of nine fish swimming.",
+    "description": "A group of nine fish swimming.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group of fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "6758d506b300/1": {
+    "exp": "Nine swimming fish.",
+    "description": "Nine swimming fish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "988d575369f6/0": {
+    "exp": "faster plane in front",
+    "description": "faster plane in front",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "988d575369f6/1": {
+    "exp": "the plane in the distance",
+    "description": "the plane in the distance",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a plane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "988d575369f6/2": {
+    "exp": "The two aircraft navigating above the sea surface and preparing to land.",
+    "description": "The two aircraft navigating above the sea surface and preparing to land.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "988d575369f6/3": {
+    "exp": "The two airplanes in flight over the water, preparing for descent.",
+    "description": "The two airplanes in flight over the water, preparing for descent.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "988d575369f6/4": {
+    "exp": "The pair of airplanes maneuvering over the water, readying themselves for landing.",
+    "description": "The pair of airplanes maneuvering over the water, readying themselves for landing.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an airplane?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "988d575369f6/5": {
+    "exp": "The pair of planes flying over the ocean and getting ready for landing.",
+    "description": "The pair of planes flying over the ocean and getting ready for landing.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a pair?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/0": {
+    "exp": "Two black bears fighting",
+    "description": "Two black bears fighting",
+    "type": 2,
+    "qa_complete": []
+  },
+  "1c30621ee530/1": {
+    "exp": "the black bear",
+    "description": "the black bear",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a black bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/2": {
+    "exp": "the brown bear",
+    "description": "the brown bear",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a brown bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target brown?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/3": {
+    "exp": "The bear that is pinning down the other bear.",
+    "description": "The bear that is pinning down the other bear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/4": {
+    "exp": "The bear that is being pinned down by the other bear.",
+    "description": "The bear that is being pinned down by the other bear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/5": {
+    "exp": "The bear that has been pinned down by the other bear.",
+    "description": "The bear that has been pinned down by the other bear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target pinned down by the other bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/6": {
+    "exp": "The two bears that are fighting.",
+    "description": "The two bears that are fighting.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "1c30621ee530/7": {
+    "exp": "The bear that pinned down the other bear.",
+    "description": "The bear that pinned down the other bear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/8": {
+    "exp": "The bear that was pinned down by the other bear.",
+    "description": "The bear that was pinned down by the other bear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/9": {
+    "exp": "The bear that will be pinned down by the other bear.",
+    "description": "The bear that will be pinned down by the other bear.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "1c30621ee530/10": {
+    "exp": "The bear that had been pinned down by the other bear.",
+    "description": "The bear that had been pinned down by the other bear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target pinned down?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "1c30621ee530/11": {
+    "exp": "The two bears that are in the middle of a fight.",
+    "description": "The two bears that are in the middle of a fight.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "1c30621ee530/12": {
+    "exp": "The two bears that are engaged in a brawl.",
+    "description": "The two bears that are engaged in a brawl.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "1c30621ee530/13": {
+    "exp": "The two bears that are wrestling with each other.",
+    "description": "The two bears that are wrestling with each other.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "1c30621ee530/14": {
+    "exp": "The two bears that are having a scuffle.",
+    "description": "The two bears that are having a scuffle.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "b2b7739917ff/0": {
+    "exp": "The man riding a bicycle.",
+    "description": "The man riding a bicycle.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/1": {
+    "exp": "The male individual riding a bike.",
+    "description": "The male individual riding a bike.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a male individual?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/2": {
+    "exp": "The young cyclist walking in the left direction with his bike.",
+    "description": "The young cyclist walking in the left direction with his bike.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a young cyclist?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/3": {
+    "exp": "The bicycle moving back and forth in the living room.",
+    "description": "The bicycle moving back and forth in the living room.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "b2b7739917ff/4": {
+    "exp": "The bike going back and forth in the living room.",
+    "description": "The bike going back and forth in the living room.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "b2b7739917ff/5": {
+    "exp": "The cyclist on the bike.",
+    "description": "The cyclist on the bike.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cyclist?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the bike?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/6": {
+    "exp": "The guy pedaling the bicycle.",
+    "description": "The guy pedaling the bicycle.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a guy?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/7": {
+    "exp": "The man on the bicycle.",
+    "description": "The man on the bicycle.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the bicycle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/8": {
+    "exp": "The boy pushing his bicycle to the left.",
+    "description": "The boy pushing his bicycle to the left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a boy?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/9": {
+    "exp": "The young boy walking to the left while pushing his bike.",
+    "description": "The young boy walking to the left while pushing his bike.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a young boy?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/10": {
+    "exp": "The male child moving leftward while guiding his bicycle.",
+    "description": "The male child moving leftward while guiding his bicycle.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "b2b7739917ff/11": {
+    "exp": "The boy going left with his bicycle in tow.",
+    "description": "The boy going left with his bicycle in tow.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a boy?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b2b7739917ff/12": {
+    "exp": "The bicycle moving from one end of the living room to the other.",
+    "description": "The bicycle moving from one end of the living room to the other.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "b2b7739917ff/13": {
+    "exp": "The bike going back and forth inside the living room.",
+    "description": "The bike going back and forth inside the living room.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "b2b7739917ff/14": {
+    "exp": "The bicycle continuously moving in the living room, going left and right.",
+    "description": "The bicycle continuously moving in the living room, going left and right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/0": {
+    "exp": "Chicken moving around",
+    "description": "Chicken moving around",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/1": {
+    "exp": "dog lying on the ground then getting up and leaving to the right",
+    "description": "dog lying on the ground then getting up and leaving to the right",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/2": {
+    "exp": "The dog lying down on the ground to rest and then getting up and leaving.",
+    "description": "The dog lying down on the ground to rest and then getting up and leaving.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/3": {
+    "exp": "The dog resting on the ground and then getting up and moving away.",
+    "description": "The dog resting on the ground and then getting up and moving away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/4": {
+    "exp": "The flock of chickens searching for food to eat.",
+    "description": "The flock of chickens searching for food to eat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a flock of chickens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f64488979254/5": {
+    "exp": "The chickens looking for something to eat.",
+    "description": "The chickens looking for something to eat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a chicken?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f64488979254/6": {
+    "exp": "The canine that was lying down, then got up and left.",
+    "description": "The canine that was lying down, then got up and left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/7": {
+    "exp": "The dog that rested by lying down on the ground and then stood up and departed.",
+    "description": "The dog that rested by lying down on the ground and then stood up and departed.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/8": {
+    "exp": "The dog that was initially lying down, then stood up and went away.",
+    "description": "The dog that was initially lying down, then stood up and went away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f64488979254/9": {
+    "exp": "The group of chickens foraging for food.",
+    "description": "The group of chickens foraging for food.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of chickens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f64488979254/10": {
+    "exp": "The chickens in a search for food.",
+    "description": "The chickens in a search for food.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a chicken?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/0": {
+    "exp": "Rabbit moving from middle to left",
+    "description": "Rabbit moving from middle to left",
+    "type": 1,
+    "qa_complete": []
+  },
+  "0ab4afe7fb46/1": {
+    "exp": "The rabbit that initially occupied the middle position and subsequently shifted to the left.",
+    "description": "The rabbit that initially occupied the middle position and subsequently shifted to the left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "0ab4afe7fb46/2": {
+    "exp": "The rabbit that started off in the middle and later moved to the left",
+    "description": "The rabbit that started off in the middle and later moved to the left",
+    "type": 1,
+    "qa_complete": []
+  },
+  "0ab4afe7fb46/3": {
+    "exp": "Three rabbits standing side by side, fidgeting and moving around.",
+    "description": "Three rabbits standing side by side, fidgeting and moving around.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/4": {
+    "exp": "A group of three rabbits in close proximity, restlessly moving together.",
+    "description": "A group of three rabbits in close proximity, restlessly moving together.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/5": {
+    "exp": "The rabbit in the leftmost cage.",
+    "description": "The rabbit in the leftmost cage.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the leftmost cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/6": {
+    "exp": "The rabbit situated in the cage on the far left.",
+    "description": "The rabbit situated in the cage on the far left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/7": {
+    "exp": "The rabbit that started in the middle and ran to the left.",
+    "description": "The rabbit that started in the middle and ran to the left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "0ab4afe7fb46/8": {
+    "exp": "The three rabbits tightly huddled together, moving back and forth.",
+    "description": "The three rabbits tightly huddled together, moving back and forth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/9": {
+    "exp": "The trio of rabbits closely grouped, fidgeting in unison.",
+    "description": "The trio of rabbits closely grouped, fidgeting in unison.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a trio?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target closely grouped?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/10": {
+    "exp": "Three rabbits bunched together, moving about in synchronized motion.",
+    "description": "Three rabbits bunched together, moving about in synchronized motion.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/11": {
+    "exp": "The rabbit located in the first cage on the left side.",
+    "description": "The rabbit located in the first cage on the left side.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "0ab4afe7fb46/12": {
+    "exp": "The bunny confined in the cage at the extreme left.",
+    "description": "The bunny confined in the cage at the extreme left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bunny?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the extreme left?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "0ab4afe7fb46/13": {
+    "exp": "The one rabbit kept in the leftmost enclosure.",
+    "description": "The one rabbit kept in the leftmost enclosure.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the leftmost enclosure?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3881ebb1477d/0": {
+    "exp": "Sheep turning around",
+    "description": "Sheep turning around",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3881ebb1477d/1": {
+    "exp": "The immobile sheep positioned at the extreme right, against the wall.",
+    "description": "The immobile sheep positioned at the extreme right, against the wall.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target positioned at the extreme right, against the wall?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3881ebb1477d/2": {
+    "exp": "The motionless lamb standing on the right side, next to the wall.",
+    "description": "The motionless lamb standing on the right side, next to the wall.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a lamb?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the right side, next to the wall?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/0": {
+    "exp": "Zebra moving forward then jumping on another zebra",
+    "description": "Zebra moving forward then jumping on another zebra",
+    "type": 1,
+    "qa_complete": []
+  },
+  "646449b95e93/1": {
+    "exp": "Zebra standing still",
+    "description": "Zebra standing still",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/2": {
+    "exp": "Zebra on top of another zebra",
+    "description": "Zebra on top of another zebra",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on top of another zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/3": {
+    "exp": "Zebra being crushed on the ass by another zebra",
+    "description": "Zebra being crushed on the ass by another zebra",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/4": {
+    "exp": "The zebra that is pressing down on the other zebra.",
+    "description": "The zebra that is pressing down on the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/5": {
+    "exp": "The zebra that is exerting pressure on another zebra.",
+    "description": "The zebra that is exerting pressure on another zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/6": {
+    "exp": "The zebra with its front legs pressing down on the other zebra's body.",
+    "description": "The zebra with its front legs pressing down on the other zebra's body.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/7": {
+    "exp": "The zebra being pressed down by the other zebra.",
+    "description": "The zebra being pressed down by the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/8": {
+    "exp": "The zebra that is under the weight of the other zebra.",
+    "description": "The zebra that is under the weight of the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target under the other zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/9": {
+    "exp": "The zebra being pinned by the other zebra.",
+    "description": "The zebra being pinned by the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/10": {
+    "exp": "The zebra that is using its front legs to pin the other zebra.",
+    "description": "The zebra that is using its front legs to pin the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/11": {
+    "exp": "The zebra that has its front legs on top of the other zebra.",
+    "description": "The zebra that has its front legs on top of the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having its front legs on top of the other zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/12": {
+    "exp": "The zebra that is holding the other zebra down with its front legs.",
+    "description": "The zebra that is holding the other zebra down with its front legs.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/13": {
+    "exp": "The zebra with its front legs firmly placed on the other zebra.",
+    "description": "The zebra with its front legs firmly placed on the other zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target with its front legs firmly placed on the other zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/14": {
+    "exp": "The zebra with the other zebra on top of it.",
+    "description": "The zebra with the other zebra on top of it.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target with the other zebra on top of it?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "646449b95e93/15": {
+    "exp": "The zebra that has the weight of the other zebra on its body.",
+    "description": "The zebra that has the weight of the other zebra on its body.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/0": {
+    "exp": "The monkey sitting in place without moving.",
+    "description": "The monkey sitting in place without moving.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting in place?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/1": {
+    "exp": "Monkey running around",
+    "description": "Monkey running around",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/2": {
+    "exp": "The little monkey lying down on the ground by other monkeys",
+    "description": "The little monkey lying down on the ground by other monkeys",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a little monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target little?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/3": {
+    "exp": "The little monkey ran to the right and out of the screen",
+    "description": "The little monkey ran to the right and out of the screen",
+    "type": 1,
+    "qa_complete": []
+  },
+  "9138c5019d45/4": {
+    "exp": "The unmoving monkey sitting in its place.",
+    "description": "The unmoving monkey sitting in its place.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting in its place?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/5": {
+    "exp": "The seated monkey staying still without changing its position.",
+    "description": "The seated monkey staying still without changing its position.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target staying still?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/6": {
+    "exp": "The young monkey being pinned to the ground by three other monkeys.",
+    "description": "The young monkey being pinned to the ground by three other monkeys.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a young monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/7": {
+    "exp": "The baby monkey held down by three other monkeys on the floor.",
+    "description": "The baby monkey held down by three other monkeys on the floor.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a baby monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/8": {
+    "exp": "The three monkeys pinning the small monkey to the floor.",
+    "description": "The three monkeys pinning the small monkey to the floor.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "9138c5019d45/9": {
+    "exp": "The three monkeys pressing down the tiny monkey on the floor.",
+    "description": "The three monkeys pressing down the tiny monkey on the floor.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "9138c5019d45/10": {
+    "exp": "The little monkey running away to the right.",
+    "description": "The little monkey running away to the right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/11": {
+    "exp": "The monkey that is sitting still without any movement.",
+    "description": "The monkey that is sitting still without any movement.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting still?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/12": {
+    "exp": "The stationary monkey not making any movements.",
+    "description": "The stationary monkey not making any movements.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/13": {
+    "exp": "The little monkey being held down by three other monkeys on the ground.",
+    "description": "The little monkey being held down by three other monkeys on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/14": {
+    "exp": "The small monkey pressed down by three other monkeys on the floor.",
+    "description": "The small monkey pressed down by three other monkeys on the floor.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a small monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/15": {
+    "exp": "The three monkeys holding the little monkey down on the ground.",
+    "description": "The three monkeys holding the little monkey down on the ground.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "9138c5019d45/16": {
+    "exp": "The small monkey darting to the right.",
+    "description": "The small monkey darting to the right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/17": {
+    "exp": "The tiny monkey scampering to the right.",
+    "description": "The tiny monkey scampering to the right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target tiny?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/18": {
+    "exp": "The young monkey fleeing to the right.",
+    "description": "The young monkey fleeing to the right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a young monkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "9138c5019d45/19": {
+    "exp": "The baby monkey sprinting to the right.",
+    "description": "The baby monkey sprinting to the right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "55c82db22205/0": {
+    "exp": "two fighting and headed cows",
+    "description": "two fighting and headed cows",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "55c82db22205/1": {
+    "exp": "The two bulls fighting in the bullfight.",
+    "description": "The two bulls fighting in the bullfight.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "55c82db22205/2": {
+    "exp": "The bulls engaged in a fierce battle.",
+    "description": "The bulls engaged in a fierce battle.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "55c82db22205/3": {
+    "exp": "The dueling bovines in the bullring.",
+    "description": "The dueling bovines in the bullring.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the bovine a bovine?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the bovine in the bullring?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "55c82db22205/4": {
+    "exp": "The combative bulls locking horns.",
+    "description": "The combative bulls locking horns.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bull?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "55c82db22205/5": {
+    "exp": "The raging bullfight between two fierce animals.",
+    "description": "The raging bullfight between two fierce animals.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bullfight?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "c55c4019e54a/0": {
+    "exp": "Man standing without moving position",
+    "description": "Man standing without moving position",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in a static position?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "c55c4019e54a/1": {
+    "exp": "Man walking leftward",
+    "description": "Man walking leftward",
+    "type": 1,
+    "qa_complete": []
+  },
+  "c55c4019e54a/2": {
+    "exp": "Sheep crawling on another sheep's back with front legs",
+    "description": "Sheep crawling on another sheep's back with front legs",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on another sheep's back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "c55c4019e54a/3": {
+    "exp": "three men standing around the two sheep",
+    "description": "three men standing around the two sheep",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target standing around the sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "c55c4019e54a/4": {
+    "exp": "man moving to left",
+    "description": "man moving to left",
+    "type": 1,
+    "qa_complete": []
+  },
+  "c55c4019e54a/5": {
+    "exp": "Two sheep circling each other.",
+    "description": "Two sheep circling each other.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "c55c4019e54a/6": {
+    "exp": "Two sheep moving in synchronized circles.",
+    "description": "Two sheep moving in synchronized circles.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "c55c4019e54a/7": {
+    "exp": "Two sheep spinning around in circles.",
+    "description": "Two sheep spinning around in circles.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "a4cda9b15f82/0": {
+    "exp": "black rabbits moving to left",
+    "description": "black rabbits moving to left",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "a4cda9b15f82/1": {
+    "exp": "baby rabbits eating and moving around",
+    "description": "baby rabbits eating and moving around",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a baby rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "a4cda9b15f82/2": {
+    "exp": "The rabbit with its feet placed on the cage.",
+    "description": "The rabbit with its feet placed on the cage.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "a4cda9b15f82/3": {
+    "exp": "That rabbit with its paws perched on the cage.",
+    "description": "That rabbit with its paws perched on the cage.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's paws perched on the cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "a4cda9b15f82/4": {
+    "exp": "That rabbit which moved from the middle to the leftmost side.",
+    "description": "That rabbit which moved from the middle to the leftmost side.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "a4cda9b15f82/5": {
+    "exp": "The hare propping its feet up on the cage.",
+    "description": "The hare propping its feet up on the cage.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a hare?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "a4cda9b15f82/6": {
+    "exp": "The rabbit that ran from the middle to the far left.",
+    "description": "The rabbit that ran from the middle to the far left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "a4cda9b15f82/7": {
+    "exp": "The bunny that dashed from the center to the extreme left.",
+    "description": "The bunny that dashed from the center to the extreme left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "bc4feb307822/0": {
+    "exp": "the lizard on the left",
+    "description": "the lizard on the left",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a lizard?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the left?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "bc4feb307822/1": {
+    "exp": "the bigger one",
+    "description": "the bigger one",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target bigger?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "bc4feb307822/2": {
+    "exp": "eating their meals",
+    "description": "eating their meals",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target eating their meals?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "bc4feb307822/3": {
+    "exp": "Enjoying a meal, the lizards are busy eating",
+    "description": "Enjoying a meal, the lizards are busy eating",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a lizard?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/0": {
+    "exp": "baby zebra running into the river",
+    "description": "baby zebra running into the river",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a baby zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/1": {
+    "exp": "The large zebra that hurriedly ran away and then returned facing the water where the young zebra was.",
+    "description": "The large zebra that hurriedly ran away and then returned facing the water where the young zebra was.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/2": {
+    "exp": "The big zebra that quickly ran off and then came back, looking towards the water where the young zebra stood.",
+    "description": "The big zebra that quickly ran off and then came back, looking towards the water where the young zebra stood.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/3": {
+    "exp": "The young zebra that ran in a panic and jumped into the water.",
+    "description": "The young zebra that ran in a panic and jumped into the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a young zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/4": {
+    "exp": "The small zebra that rushed into the water in a state of distress.",
+    "description": "The small zebra that rushed into the water in a state of distress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/5": {
+    "exp": "The zebra, drinking water at the bank, then ran away.",
+    "description": "The zebra, drinking water at the bank, then ran away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/6": {
+    "exp": "The zebra, taking a drink at the shore, later sprinted off.",
+    "description": "The zebra, taking a drink at the shore, later sprinted off.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/7": {
+    "exp": "The zebra farthest away from the water.",
+    "description": "The zebra farthest away from the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target farthest away from the water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/8": {
+    "exp": "The zebra standing farthest from the water.",
+    "description": "The zebra standing farthest from the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target standing farthest from the water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/9": {
+    "exp": "The large zebra that hastily moved away and then came back, facing the direction of the water where the young zebra was.",
+    "description": "The large zebra that hastily moved away and then came back, facing the direction of the water where the young zebra was.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/10": {
+    "exp": "The big zebra that rushed away and then turned back, gazing at the water where the young zebra stood.",
+    "description": "The big zebra that rushed away and then turned back, gazing at the water where the young zebra stood.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/11": {
+    "exp": "The large zebra that scampered away and then circled back, facing the water where the young zebra was.",
+    "description": "The large zebra that scampered away and then circled back, facing the water where the young zebra was.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/12": {
+    "exp": "The little zebra that hurriedly fled and sought refuge in the water.",
+    "description": "The little zebra that hurriedly fled and sought refuge in the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target little?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/13": {
+    "exp": "The panicked young zebra that dashed into the water.",
+    "description": "The panicked young zebra that dashed into the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/14": {
+    "exp": "The small zebra that darted into the water in a state of alarm.",
+    "description": "The small zebra that darted into the water in a state of alarm.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/15": {
+    "exp": "The zebra, pausing to drink by the water's edge, quickly ran away.",
+    "description": "The zebra, pausing to drink by the water's edge, quickly ran away.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target by the water's edge?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/16": {
+    "exp": "The zebra, drinking water near the bank, soon took off in a run.",
+    "description": "The zebra, drinking water near the bank, soon took off in a run.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/17": {
+    "exp": "The zebra, quenching its thirst at the water's edge, eventually dashed off.",
+    "description": "The zebra, quenching its thirst at the water's edge, eventually dashed off.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "d0adcb3c5f36/18": {
+    "exp": "The zebra that remained at the greatest distance from the water.",
+    "description": "The zebra that remained at the greatest distance from the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the greatest distance from the water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "d0adcb3c5f36/19": {
+    "exp": "The zebra that kept the longest distance from the water.",
+    "description": "The zebra that kept the longest distance from the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/0": {
+    "exp": "Goat chewing on grass",
+    "description": "Goat chewing on grass",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/1": {
+    "exp": "Three goats eating at the front",
+    "description": "Three goats eating at the front",
+    "type": 2,
+    "qa_complete": []
+  },
+  "f97e8c417f45/2": {
+    "exp": "The goat walking back from the middle",
+    "description": "The goat walking back from the middle",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/3": {
+    "exp": "The goat that has been standing at the back to eat",
+    "description": "The goat that has been standing at the back to eat",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/4": {
+    "exp": "goat moving from rightmost to the middle",
+    "description": "goat moving from rightmost to the middle",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/5": {
+    "exp": "The sheep standing at the far corner of the wall, eating grass.",
+    "description": "The sheep standing at the far corner of the wall, eating grass.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the far corner of the wall?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/6": {
+    "exp": "The sheep, changing direction to grab the food from the sheep near the wall.",
+    "description": "The sheep, changing direction to grab the food from the sheep near the wall.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/7": {
+    "exp": "The goat, moving from the right side to the center and beginning to eat.",
+    "description": "The goat, moving from the right side to the center and beginning to eat.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/8": {
+    "exp": "The goat, walking from the rightmost position to the middle while eating.",
+    "description": "The goat, walking from the rightmost position to the middle while eating.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/9": {
+    "exp": "The goat, starting at the rightmost spot, then moving towards the middle and eating.",
+    "description": "The goat, starting at the rightmost spot, then moving towards the middle and eating.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/10": {
+    "exp": "The distant sheep, grazing at the corner of the wall.",
+    "description": "The distant sheep, grazing at the corner of the wall.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the corner of the wall?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/11": {
+    "exp": "The sheep in the far corner, nibbling on grass.",
+    "description": "The sheep in the far corner, nibbling on grass.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the far corner?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/12": {
+    "exp": "The sheep that turned around to snatch the food from the other sheep at wall.",
+    "description": "The sheep that turned around to snatch the food from the other sheep at wall.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/13": {
+    "exp": "The sheep, turning around to steal the food from the sheep beside the wall.",
+    "description": "The sheep, turning around to steal the food from the sheep beside the wall.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/14": {
+    "exp": "The sheep, facing the other direction to snatch the food from the sheep at the wall's edge.",
+    "description": "The sheep, facing the other direction to snatch the food from the sheep at the wall's edge.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/15": {
+    "exp": "The sheep, rotating and heading towards the other sheep to grab its food near the wall.",
+    "description": "The sheep, rotating and heading towards the other sheep to grab its food near the wall.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sheep?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "f97e8c417f45/16": {
+    "exp": "The goat that walked from the far right to the middle and started eating.",
+    "description": "The goat that walked from the far right to the middle and started eating.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "f97e8c417f45/17": {
+    "exp": "The goat, going from the far right and stopping in the middle to eat.",
+    "description": "The goat, going from the far right and stopping in the middle to eat.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "8e4c1da2aa74/0": {
+    "exp": "The cat lying on its back and licking the other cat.",
+    "description": "The cat lying on its back and licking the other cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying on its back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/1": {
+    "exp": "The cat on its back, tenderly licking its feline companion.",
+    "description": "The cat on its back, tenderly licking its feline companion.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on its back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/2": {
+    "exp": "The cat sprawled on the ground, being groomed by the other cat.",
+    "description": "The cat sprawled on the ground, being groomed by the other cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/3": {
+    "exp": "The cat lying down while receiving a thorough grooming from the other cat.",
+    "description": "The cat lying down while receiving a thorough grooming from the other cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying down?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/4": {
+    "exp": "The cat is turning around and walking backward.",
+    "description": "The cat is turning around and walking backward.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "8e4c1da2aa74/5": {
+    "exp": "The cat is moving backward, with its head turned.",
+    "description": "The cat is moving backward, with its head turned.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "8e4c1da2aa74/6": {
+    "exp": "The reclining cat affectionately grooming its feline friend.",
+    "description": "The reclining cat affectionately grooming its feline friend.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target reclining?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/7": {
+    "exp": "The cat stretched out on the ground, engaged in grooming the other cat.",
+    "description": "The cat stretched out on the ground, engaged in grooming the other cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/8": {
+    "exp": "The cat on the floor, being lovingly licked by its feline companion.",
+    "description": "The cat on the floor, being lovingly licked by its feline companion.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/9": {
+    "exp": "The cat enjoying a grooming session as it rests on the ground, tended to by the other cat.",
+    "description": "The cat enjoying a grooming session as it rests on the ground, tended to by the other cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target resting on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/10": {
+    "exp": "The cat reclining on the floor, receiving gentle licks from its feline friend.",
+    "description": "The cat reclining on the floor, receiving gentle licks from its feline friend.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target reclining on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/11": {
+    "exp": "Walking backward, the cat is retreating.",
+    "description": "Walking backward, the cat is retreating.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8e4c1da2aa74/12": {
+    "exp": "The cat is reversing its direction and walking away.",
+    "description": "The cat is reversing its direction and walking away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "8e4c1da2aa74/13": {
+    "exp": "Moving in reverse, the cat is heading backward.",
+    "description": "Moving in reverse, the cat is heading backward.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "909b90399732/0": {
+    "exp": "The two quarreling reptiles.",
+    "description": "The two quarreling reptiles.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "909b90399732/1": {
+    "exp": "two lizards fighting",
+    "description": "two lizards fighting",
+    "type": 2,
+    "qa_complete": []
+  },
+  "909b90399732/2": {
+    "exp": "The lizard being tossed back and forth.",
+    "description": "The lizard being tossed back and forth.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "909b90399732/3": {
+    "exp": "The lizard being swung from side to side.",
+    "description": "The lizard being swung from side to side.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "909b90399732/4": {
+    "exp": "The lizard being jerked left and right.",
+    "description": "The lizard being jerked left and right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "909b90399732/5": {
+    "exp": "The lizard being thrown around.",
+    "description": "The lizard being thrown around.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a lizard?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "909b90399732/6": {
+    "exp": "The lizard being tossed in different directions.",
+    "description": "The lizard being tossed in different directions.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "64f9e6434d13/0": {
+    "exp": "panda eating and lying the woman in blue",
+    "description": "panda eating and lying the woman in blue",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/1": {
+    "exp": "panda moving to left fist then moving to right",
+    "description": "panda moving to left fist then moving to right",
+    "type": 1,
+    "qa_complete": []
+  },
+  "64f9e6434d13/2": {
+    "exp": "moving pandas",
+    "description": "moving pandas",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/3": {
+    "exp": "pandas walking to right",
+    "description": "pandas walking to right",
+    "type": 2,
+    "qa_complete": []
+  },
+  "64f9e6434d13/4": {
+    "exp": "The person in grey waling and leading the panda to the right",
+    "description": "The person in grey waling and leading the panda to the right",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in grey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/5": {
+    "exp": "woman with gold hair sitting on the right with a panda near her",
+    "description": "woman with gold hair sitting on the right with a panda near her",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a woman?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's hair gold?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on the right?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/6": {
+    "exp": "panda sitting near the woman in blue with golden hair sitting on the right",
+    "description": "panda sitting near the woman in blue with golden hair sitting on the right",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting near the woman?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/7": {
+    "exp": "The woman sitting on the ground, with her right hand embracing a panda eating food.",
+    "description": "The woman sitting on the ground, with her right hand embracing a panda eating food.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a woman?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/8": {
+    "exp": "The female, seated on the floor, holding a panda eating with her right hand.",
+    "description": "The female, seated on the floor, holding a panda eating with her right hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a female?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target seated on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/9": {
+    "exp": "The panda, being held by a woman and lying on the ground, eating food.",
+    "description": "The panda, being held by a woman and lying on the ground, eating food.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/10": {
+    "exp": "The panda, being embraced by a woman, lying on the floor, and feeding.",
+    "description": "The panda, being embraced by a woman, lying on the floor, and feeding.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/11": {
+    "exp": "The panda being cleaned around the mouth with a cloth by the caretaker.",
+    "description": "The panda being cleaned around the mouth with a cloth by the caretaker.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/12": {
+    "exp": "The panda having its mouth wiped by the caretaker with a piece of cloth.",
+    "description": "The panda having its mouth wiped by the caretaker with a piece of cloth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/13": {
+    "exp": "The caretaker who wiped the panda's mouth.",
+    "description": "The caretaker who wiped the panda's mouth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a caretaker?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/14": {
+    "exp": "The zookeeper who cleaned the panda's mouth.",
+    "description": "The zookeeper who cleaned the panda's mouth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zookeeper?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/15": {
+    "exp": "The lady sitting on the ground, with her right arm around a panda that is eating.",
+    "description": "The lady sitting on the ground, with her right arm around a panda that is eating.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a lady?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/16": {
+    "exp": "A woman sitting on the floor, her right hand embracing a panda enjoying its meal.",
+    "description": "A woman sitting on the floor, her right hand embracing a panda enjoying its meal.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a woman?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/17": {
+    "exp": "The panda, being cuddled by a woman, resting on the ground, and eating.",
+    "description": "The panda, being cuddled by a woman, resting on the ground, and eating.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target resting on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/18": {
+    "exp": "The panda whose mouth was wiped by the caretaker using a cloth.",
+    "description": "The panda whose mouth was wiped by the caretaker using a cloth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/19": {
+    "exp": "The panda whose mouth was cleaned with a cloth by the caretaker.",
+    "description": "The panda whose mouth was cleaned with a cloth by the caretaker.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/20": {
+    "exp": "The panda that got its mouth cleaned by the caretaker using a white cloth.",
+    "description": "The panda that got its mouth cleaned by the caretaker using a white cloth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a panda?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/21": {
+    "exp": "The staff member who used a cloth to wipe the panda's mouth.",
+    "description": "The staff member who used a cloth to wipe the panda's mouth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a staff member?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "64f9e6434d13/22": {
+    "exp": "The keeper who gently wiped the panda's mouth with a cloth.",
+    "description": "The keeper who gently wiped the panda's mouth with a cloth.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a keeper?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  }
+}

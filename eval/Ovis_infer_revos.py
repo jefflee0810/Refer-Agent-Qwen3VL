@@ -6,7 +6,6 @@ import random
 import time
 import traceback
 import cv2
-from transformers import AutoModelForCausalLM
 import numpy as np
 import torch
 import re
@@ -30,6 +29,7 @@ warnings.filterwarnings("ignore")
 
 from utils.concat_frames_revos import select_top_images, stitch_images, simple_concat_frames
 from utils.preprocess_revos import ImageScorer
+from utils.vl_backend import load_vlm, vl_chat, parse_grounding_bbox, parse_point
 
 # colormap
 color_list = utils.colormap()
@@ -48,8 +48,7 @@ transform = T.Compose([
     T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
 
-OUTPUT = "path/to/output"
-OVIS_CHECKPOINT = "path/to/AIDC-AI/Ovis2.5-9B"
+OUTPUT = "/home/cvlab18/media/data3/jaeho/revos_qwen"
 
 def main(args):
     print("Inference only supports for batch size = 1")
@@ -66,8 +65,8 @@ def main(args):
     os.makedirs(output_dir, exist_ok=True)
 
     # load data
-    root = 'path/to/revos'
-    img_folder = root
+    root = '/home/cvlab18/media/data2/datasets/revos'
+    img_folder = os.path.join(root, 'JPEGImages')
     meta_file = os.path.join(root, "meta_expressions_valid_.json")
     with open(meta_file, "r") as f:
         data = json.load(f)["videos"]
@@ -75,6 +74,13 @@ def main(args):
     video_list = list(data.keys())
 
     random.shuffle(video_list)
+
+    # Sharding: each invocation handles video_list[shard_id::num_shards].
+    shard_id = args.shard_id
+    num_shards = args.num_shards
+    if num_shards > 1:
+        video_list = video_list[shard_id::num_shards]
+        print(f'[shard {shard_id}/{num_shards}] handling {len(video_list)} videos')
 
     all_query_qa = json.load(open('output_query_qa/revos_query_qa.json', 'r'))
     all_CLIP_query_scores = json.load(open('output_concat/revos/CLIP/video_scores_revos.json', 'r'))
@@ -98,7 +104,8 @@ def main(args):
 
         p = mp.Process(target=sub_processor, args=(lock, i, args, data,
                                                    output_dir,
-                                                   img_folder, sub_video_list, result_dict, all_query_qa, all_CLIP_query_scores))
+                                                   img_folder, sub_video_list, result_dict, all_query_qa, all_CLIP_query_scores,
+                                                   shard_id))
         p.start()
         processes.append(p)
 
@@ -107,9 +114,23 @@ def main(args):
 
     result_dict = dict(result_dict)
     all_results = []
-    for pid, cur_results in result_dict.items():
-        all_results.extend(cur_results)
-    json.dump(all_results, open(os.path.join(output_dir, 'all_results.json'), 'w'), indent=2)
+    for pid in range(thread_num):
+        key = str(pid)
+        if key in result_dict:
+            all_results.extend(result_dict[key])
+        else:
+            ckpt = os.path.join(output_dir, f'all_results_shard{shard_id}_pid{pid}.json')
+            if os.path.exists(ckpt):
+                with open(ckpt) as f:
+                    all_results.extend(json.load(f))
+                print(f'[main] recovered worker {pid} from {ckpt}')
+
+    if num_shards == 1:
+        out_name = 'all_results.json'
+    else:
+        out_name = f'all_results_shard{shard_id}.json'
+    json.dump(all_results, open(os.path.join(output_dir, out_name), 'w'), indent=2)
+    print(f'[main] saved {len(all_results)} entries to {out_name}')
         
 
 # Process video and extract key frames
@@ -170,30 +191,8 @@ def score_frame_with_vlm(frames, query, attention_info, vl_model, pid):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=4096,
-            thinking_budget=3584,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=3584)
     try:
         # Find the JSON part (after any thinking steps)
         response = response.strip()
@@ -253,30 +252,8 @@ def generate_descriptions_with_vlm(frame, query, key_frame_id, num_frame, vl_mod
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=4096,
-            thinking_budget=3584,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=3584)
     # Extract JSON from the response (assuming the model outputs valid JSON)
     try:
         # Find the JSON part (after any thinking steps)
@@ -351,30 +328,8 @@ def generate_descriptions_with_vlm_cot(frame, query, key_frame_id, update_descri
         ]
         messages[-1]['content'].extend(cur_message)
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=4096,
-            thinking_budget=3584,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=3584)
     # Extract JSON from the response (assuming the model outputs valid JSON)
     try:
         # Find the JSON part (after any thinking steps)
@@ -424,73 +379,10 @@ def grounding_with_vlm(frame, query, description, vl_model):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=False,
-        max_pixels=896*896
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=False,
-            enable_thinking_budget=False,
-            max_new_tokens=2048,
-            thinking_budget=1024,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
-    response = response.strip().split('</think>')[-1]
-    response = response.replace('<bbox>', '<box>').replace('</bbox>', '</box>')
-
-    box_pattern = r'<box>\s*[\(\[\{]*\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\},\s]*\s*[\(\[\{]*\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\}]*\s*</box>'
-    box_matches = re.findall(box_pattern, response)
-
-    coord_patterns = [
-        # (x1,y1),(x2,y2) or [x1,y1],[x2,y2]
-        r'[\(\[\{]\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\}][,\s]*[\(\[\{]\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\}]',
-        # x1,y1,x2,y2
-        r'(\d+\.?\d*)\s*[,\s]+\s*(\d+\.?\d*)\s*[,\s]+\s*(\d+\.?\d*)\s*[,\s]+\s*(\d+\.?\d*)',
-        # x1 y1 x2 y2
-        r'(\d+\.?\d*)\s+(\d+\.?\d*)\s+(\d+\.?\d*)\s+(\d+\.?\d*)',
-        # four consecutive numbers
-        r'\b(\d{2,4})\b\s+\b(\d{2,4})\b\s+\b(\d{2,4})\b\s+\b(\d{2,4})\b'
-    ]
-
-    boxes = []
-
-    for match in box_matches:
-        try:
-            x1, y1, x2, y2 = [float(coord) for coord in match]
-            boxes.append(normalize_coordinates(x1, y1, x2, y2))
-        except ValueError:
-            continue
-
-    for pattern in coord_patterns:
-        matches = re.findall(pattern, response)
-        for match in matches:
-            try:
-                if len(match) == 4:
-                    x1, y1, x2, y2 = [float(coord) for coord in match]
-                    boxes.append(normalize_coordinates(x1, y1, x2, y2))
-            except ValueError:
-                continue
-
-    boxes = remove_duplicate_boxes(boxes)
-    if boxes:
-        bbox = boxes[-1]
-    else:
-        bbox = None
-    return bbox
+    response = vl_chat(vl_model, messages, thinking=False,
+                       max_new_tokens=10000, thinking_budget=1024)
+    image_size = frame.size if hasattr(frame, "size") else None
+    return parse_grounding_bbox(response, image_size=image_size)
 
 def visualize_detection(image, mask=None, box=None):
     if isinstance(image, Image.Image):
@@ -536,66 +428,10 @@ def refine_grounding_with_vlm(frame, query, description, vl_model):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=False,
-        max_pixels=896*896
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=False,
-            enable_thinking_budget=False,
-            max_new_tokens=2048,
-            thinking_budget=1024,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
-    response = response.strip().split('</think>')[-1]
-    response = response.replace('<points>', '<point>').replace('</points>', '</point>')
-    # response = response.replace('<bbox>', '<box>').replace('</bbox>', '</box>')
-
-    point_pattern = r'<point>\s*[\(\[\{]*\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\}]*\s*</point>'
-    point_matches = re.findall(point_pattern, response)
-    points = []
-    for match in point_matches:
-        try:
-            x, y = [float(coord) for coord in match]
-            points.append(normalize_point_coordinates(x, y))
-        except ValueError:
-            continue
-    if points:
-        point = points[-1]
-    else:
-        point = None
-
-    # box_pattern = r'<box>\s*[\(\[\{]*\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\},\s]*\s*[\(\[\{]*\s*([\d\.]+)\s*[,\s]+\s*([\d\.]+)\s*[\)\]\}]*\s*</box>'
-    # box_matches = re.findall(box_pattern, response)
-
-    # boxes = []
-    # for match in box_matches:
-    #     try:
-    #         x1, y1, x2, y2 = [float(coord) for coord in match]
-    #         boxes.append(normalize_coordinates(x1, y1, x2, y2))
-    #     except ValueError:
-    #         continue
-
-    # boxes = remove_duplicate_boxes(boxes)
-    # if boxes:
-    #     bbox = boxes[-1]
-    # else:
-    #     bbox = None
-    return point
+    response = vl_chat(vl_model, messages, thinking=False,
+                       max_new_tokens=10000, thinking_budget=1024)
+    image_size = frame.size if hasattr(frame, "size") else None
+    return parse_point(response, image_size=image_size)
 
 def normalize_point_coordinates(x, y):
     if x > 1.0:
@@ -687,30 +523,8 @@ def image_qa_with_vlm(frames, query, questions, key_frame_id, vl_model):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=4096,
-            thinking_budget=3584,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=3584)
     # Extract JSON from the response (assuming the model outputs valid JSON)
     try:
         # Find the JSON part (after any thinking steps)
@@ -842,30 +656,8 @@ def answer_qa_with_vlm(frame, questions, addition_info, vl_model):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=4096,
-            thinking_budget=3584,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=3584)
 
     # Extract JSON from the response
     try:
@@ -1144,7 +936,7 @@ def convert_point(point, orig_height, orig_width):
     point_original = [abs_x1, abs_y1]
     return point_original
 
-def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_list, result_dict, all_query_qa, all_CLIP_query_scores):
+def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_list, result_dict, all_query_qa, all_CLIP_query_scores, shard_id=0):
     text = 'processor %d' % pid
     with lock:
         progress = tqdm(
@@ -1153,18 +945,28 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
             desc=text,
             ncols=0
         )
-    torch.cuda.set_device(pid)
-    device = torch.device(f"cuda:{pid}")
+    n_gpus = max(torch.cuda.device_count(), 1)
+    gpu_id = pid % n_gpus
+    torch.cuda.set_device(gpu_id)
+    device = torch.device(f"cuda:{gpu_id}")
 
-    ovis_model = AutoModelForCausalLM.from_pretrained(
-        OVIS_CHECKPOINT,
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
-        trust_remote_code=True,
-    ).to(device)
+    vl_model = load_vlm(device)
     scorer = ImageScorer()
 
+    # Resume: load this worker's prior checkpoint if present.
+    checkpoint_path = os.path.join(save_path_prefix, f'all_results_shard{shard_id}_pid{pid}.json')
     all_results = []
+    done_keys = set()
+    if os.path.exists(checkpoint_path):
+        try:
+            with open(checkpoint_path, 'r') as f:
+                all_results = json.load(f)
+            done_keys = {f"{e.get('video_name')}/{e.get('exp_id')}" for e in all_results}
+            print(f'[worker {pid}] resumed with {len(all_results)} existing entries')
+        except Exception as e:
+            print(f'[worker {pid}] checkpoint load failed ({e}); starting fresh')
+            all_results = []
+            done_keys = set()
 
     # 1. For each video
     for video in video_list:
@@ -1207,8 +1009,9 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                 exp_id = meta[i]["exp_id"]
 
                 save_path = os.path.join(save_path_prefix, video_name, exp_id)
-                # if os.path.exists(save_path):
-                #     continue
+                # Resume: skip already-processed (video, exp) entries
+                if f"{video_name}/{exp_id}" in done_keys:
+                    continue
 
                 start_frame_idx = 1
                 end_frame_idx = video_len
@@ -1254,7 +1057,7 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                         combined_image = simple_concat_frames(selected_frames_PIL)
 
                         for query_round in range(args.max_query_num):
-                            Ovis_scores = score_frame_with_vlm([combined_image], exp, attention_info, ovis_model, pid)
+                            Ovis_scores = score_frame_with_vlm([combined_image], exp, attention_info, vl_model, pid)
                             if Ovis_scores and len(Ovis_scores) == len(selected_frames):
                                 break
 
@@ -1321,7 +1124,7 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                         orig_width, orig_height = original_key_frame.size
 
                         for query_round_description in range(args.max_query_num):
-                            descriptions = generate_descriptions_with_vlm(combined_image, exp, key_frame_id + 1, len(selected_frame_list), ovis_model, pid)
+                            descriptions = generate_descriptions_with_vlm(combined_image, exp, key_frame_id + 1, len(selected_frame_list), vl_model, pid)
                             if descriptions:
                                 break
                         
@@ -1331,14 +1134,14 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                         if descriptions:
                             for description in descriptions:
                                 for query_round_grounding in range(args.max_query_num):
-                                    grounding_bbox = grounding_with_vlm(original_key_frame, exp, description, ovis_model)
+                                    grounding_bbox = grounding_with_vlm(original_key_frame, exp, description, vl_model)
                                     
                                     if not grounding_bbox:
                                         continue
 
                                     converted_box = convert_bbox(grounding_bbox, orig_height, orig_width)
                                     labeled_key_frame = visualize_box(bytes_imgs[key_frame_idx], converted_box)
-                                    grounding_point = refine_grounding_with_vlm(labeled_key_frame, exp, description, ovis_model)
+                                    grounding_point = refine_grounding_with_vlm(labeled_key_frame, exp, description, vl_model)
 
                                     if grounding_point and grounding_bbox:
                                         break
@@ -1391,7 +1194,7 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                             # combined_image_for_check_frame = stitch_images(selected_frame_list, key_frame_id)
                             questions_frame = convert_qa_for_answer_prompt(frame_query_qa)
                             for query_round in range(args.max_query_num):
-                                results_for_frame_qa = image_qa_with_vlm([combined_image_frame_qa], exp, questions_frame, original_key_frame_id + 1, ovis_model)
+                                results_for_frame_qa = image_qa_with_vlm([combined_image_frame_qa], exp, questions_frame, original_key_frame_id + 1, vl_model)
                                 if results_for_frame_qa:
                                     break
                             answers_for_frame_qa = results_for_frame_qa['answers']
@@ -1422,23 +1225,23 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                         if update_descriptions_round > 0:
                             for query_round_description in range(args.max_query_num):
                                 if not update_descriptions_cots:
-                                    descriptions = generate_descriptions_with_vlm(combined_image, exp, key_frame_id + 1, len(selected_frame_list), ovis_model, pid)
+                                    descriptions = generate_descriptions_with_vlm(combined_image, exp, key_frame_id + 1, len(selected_frame_list), vl_model, pid)
                                 else:
-                                    descriptions = generate_descriptions_with_vlm_cot(combined_image, exp, key_frame_id + 1, update_descriptions_cots, len(selected_frame_list), ovis_model, pid)
+                                    descriptions = generate_descriptions_with_vlm_cot(combined_image, exp, key_frame_id + 1, update_descriptions_cots, len(selected_frame_list), vl_model, pid)
 
                         grounding_bboxes = []
                         grounding_points = []
                         if descriptions:
                             for description in descriptions:
                                 for query_round_grounding in range(args.max_query_num):
-                                    grounding_bbox = grounding_with_vlm(original_key_frame, exp, description, ovis_model)
+                                    grounding_bbox = grounding_with_vlm(original_key_frame, exp, description, vl_model)
 
                                     if not grounding_bbox:
                                         continue
 
                                     converted_box = convert_bbox(grounding_bbox, orig_height, orig_width)
                                     labeled_key_frame = visualize_box(bytes_imgs[key_frame_idx], converted_box)
-                                    grounding_point = refine_grounding_with_vlm(labeled_key_frame, exp, description, ovis_model)
+                                    grounding_point = refine_grounding_with_vlm(labeled_key_frame, exp, description, vl_model)
 
                                     if grounding_point and grounding_bbox:
                                         break
@@ -1471,7 +1274,7 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                                 img_with_box = visualize_box(bytes_imgs[key_frame_idx], bbox)
 
                                 for query_round in range(args.max_query_num):
-                                    answers_static = answer_qa_with_vlm(img_with_box, questions_static, addition_info, ovis_model)['answers']
+                                    answers_static = answer_qa_with_vlm(img_with_box, questions_static, addition_info, vl_model)['answers']
                                     if answers_static:
                                         break
 
@@ -1533,10 +1336,16 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                         f.write(traceback.format_exc() + '\n')
                     continue
 
+        # Incremental checkpoint: write this worker's accumulated results after each video.
+        try:
+            with open(checkpoint_path, 'w') as f:
+                json.dump(all_results, f, indent=2)
+        except Exception as _ck_e:
+            print(f'[worker {pid}] checkpoint write failed: {_ck_e}', flush=True)
+
         with lock:
             progress.update(1)
     result_dict[str(pid)] = all_results
-    json.dump(all_results, open(os.path.join(save_path_prefix, f'all_results_{pid}.json'), 'w'), indent=2)
     with lock:
         progress.close()
 
@@ -1552,6 +1361,12 @@ if __name__ == '__main__':
     parser.add_argument("--max_update_frame_num", "-max_frame", default=2, type=int)
     parser.add_argument('--num_gpus', '-ng', type=int, required=True,
                         help='number of CUDA gpus to run on. mutually exclusive with \'gpu_ids\'')
+    parser.add_argument('--shard-id', dest='shard_id', type=int, default=0,
+                        help='this invocation processes video_list[shard_id::num_shards]')
+    parser.add_argument('--num-shards', dest='num_shards', type=int, default=1,
+                        help='total number of parallel shards across invocations')
     args = parser.parse_args()
+    if not (0 <= args.shard_id < args.num_shards):
+        raise ValueError(f'shard_id must be in [0, num_shards); got shard_id={args.shard_id}, num_shards={args.num_shards}')
 
     main(args)

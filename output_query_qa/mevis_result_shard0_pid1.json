@@ -1,0 +1,3726 @@
+{
+  "611a5942da65/0": {
+    "exp": "Man holding basket and riding on elephant",
+    "description": "Man holding basket and riding on elephant",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/1": {
+    "exp": "Persons standing still",
+    "description": "Persons standing still",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target standing?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/2": {
+    "exp": "Elephants standing still",
+    "description": "Elephants standing still",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an Elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's position static?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/3": {
+    "exp": "Three elephants picking up the hoop with their trunks and running quickly to the right",
+    "description": "Three elephants picking up the hoop with their trunks and running quickly to the right",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/4": {
+    "exp": "three men on the three elephants picking up the hoop with their trunks and running quickly to the right",
+    "description": "three men on the three elephants picking up the hoop with their trunks and running quickly to the right",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/5": {
+    "exp": "The elephant who was the first to pick up the hoop with its trunk and sprint to the right to lead the way",
+    "description": "The elephant who was the first to pick up the hoop with its trunk and sprint to the right to lead the way",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/6": {
+    "exp": "man in red sitting on an elephant moving to right",
+    "description": "man in red sitting on an elephant moving to right",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in red?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/7": {
+    "exp": "man in black clothes standing at the starting point of three elephants",
+    "description": "man in black clothes standing at the starting point of three elephants",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/8": {
+    "exp": "man in orange standing on the left and watching the elephants racing",
+    "description": "man in orange standing on the left and watching the elephants racing",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing orange?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target standing on the left?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/9": {
+    "exp": "Three elephants standing there without moving",
+    "description": "Three elephants standing there without moving",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target standing there?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/10": {
+    "exp": "The leading elephant in the race.",
+    "description": "The leading elephant in the race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/11": {
+    "exp": "The head elephant, running at the front of the pack.",
+    "description": "The head elephant, running at the front of the pack.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/12": {
+    "exp": "The person riding on the leading elephant.",
+    "description": "The person riding on the leading elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the leading elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/13": {
+    "exp": "The individual atop the frontmost elephant.",
+    "description": "The individual atop the frontmost elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an individual?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target atop the frontmost elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/14": {
+    "exp": "The elephant draped in a Messi jersey.",
+    "description": "The elephant draped in a Messi jersey.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/15": {
+    "exp": "The elephant donning a Lionel Messi football jersey.",
+    "description": "The elephant donning a Lionel Messi football jersey.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/16": {
+    "exp": "The three racing elephants.",
+    "description": "The three racing elephants.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/17": {
+    "exp": "Three elephants participating in a running competition.",
+    "description": "Three elephants participating in a running competition.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/18": {
+    "exp": "The group of elephants engaged in a running race.",
+    "description": "The group of elephants engaged in a running race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/19": {
+    "exp": "The three individuals racing on elephants.",
+    "description": "The three individuals racing on elephants.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/20": {
+    "exp": "Three people riding elephants, racing against each other.",
+    "description": "Three people riding elephants, racing against each other.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/21": {
+    "exp": "The one who gave the starting gesture for the race.",
+    "description": "The one who gave the starting gesture for the race.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/22": {
+    "exp": "The one giving the starting gesture for the race.",
+    "description": "The one giving the starting gesture for the race.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/23": {
+    "exp": "The three elephants standing in place without moving their positions.",
+    "description": "The three elephants standing in place without moving their positions.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/24": {
+    "exp": "The three elephants staying in their original positions without moving.",
+    "description": "The three elephants staying in their original positions without moving.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/25": {
+    "exp": "The elephant in the front, leading the others.",
+    "description": "The elephant in the front, leading the others.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the front?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/26": {
+    "exp": "The elephant at the forefront, leading the charge.",
+    "description": "The elephant at the forefront, leading the charge.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/27": {
+    "exp": "The frontmost elephant, leading the group.",
+    "description": "The frontmost elephant, leading the group.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "611a5942da65/28": {
+    "exp": "The rider on the foremost elephant.",
+    "description": "The rider on the foremost elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rider?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the foremost elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/29": {
+    "exp": "The person on the head elephant, which is in the lead.",
+    "description": "The person on the head elephant, which is in the lead.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/30": {
+    "exp": "The one sitting on the leading elephant.",
+    "description": "The one sitting on the leading elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target sitting on the leading elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/31": {
+    "exp": "The big elephant wearing a Messi football shirt.",
+    "description": "The big elephant wearing a Messi football shirt.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target big?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/32": {
+    "exp": "The elephant with a Messi jersey on its back.",
+    "description": "The elephant with a Messi jersey on its back.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a Messi jersey on its back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/33": {
+    "exp": "The large elephant dressed in a Messi soccer jersey.",
+    "description": "The large elephant dressed in a Messi soccer jersey.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target large?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/34": {
+    "exp": "The trio of elephants competing in a race.",
+    "description": "The trio of elephants competing in a race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a trio?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/35": {
+    "exp": "Three elephants running in a race.",
+    "description": "Three elephants running in a race.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/36": {
+    "exp": "Three people competing in a race, each riding on an elephant.",
+    "description": "Three people competing in a race, each riding on an elephant.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/37": {
+    "exp": "Three contestants riding separate elephants in a running competition.",
+    "description": "Three contestants riding separate elephants in a running competition.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/38": {
+    "exp": "The trio of riders on elephants, participating in a racing event.",
+    "description": "The trio of riders on elephants, participating in a racing event.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rider?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/39": {
+    "exp": "The person next to the elephants watching the race.",
+    "description": "The person next to the elephants watching the race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target next to the elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/40": {
+    "exp": "The individual standing beside the elephants observing the competition.",
+    "description": "The individual standing beside the elephants observing the competition.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target standing beside the elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/41": {
+    "exp": "The person who is standing near the elephants and watching the race.",
+    "description": "The person who is standing near the elephants and watching the race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target near the elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/42": {
+    "exp": "The spectator standing by the elephants to witness the race.",
+    "description": "The spectator standing by the elephants to witness the race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a spectator?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target by the elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/43": {
+    "exp": "The onlooker beside the elephants, overseeing the race.",
+    "description": "The onlooker beside the elephants, overseeing the race.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an onlooker?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target beside the elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/44": {
+    "exp": "The trio of elephants stationary without any movement.",
+    "description": "The trio of elephants stationary without any movement.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the trio of elephants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "611a5942da65/45": {
+    "exp": "The elephants in a fixed position without any displacement.",
+    "description": "The elephants in a fixed position without any displacement.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "611a5942da65/46": {
+    "exp": "The trio of elephants remaining still in their places.",
+    "description": "The trio of elephants remaining still in their places.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in its place?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "062d44e624ad/0": {
+    "exp": "Four white rabbits moving around in a cage",
+    "description": "Four white rabbits moving around in a cage",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "062d44e624ad/1": {
+    "exp": "Two rabbits in the right cage",
+    "description": "Two rabbits in the right cage",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the right cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "062d44e624ad/2": {
+    "exp": "white rabbit in the left cage",
+    "description": "white rabbit in the left cage",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rabbit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the left cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "062d44e624ad/3": {
+    "exp": "The group of four rabbits inside the central enclosure.",
+    "description": "The group of four rabbits inside the central enclosure.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of four rabbits?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target inside the central enclosure?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "062d44e624ad/4": {
+    "exp": "All the rabbits in the cage.",
+    "description": "All the rabbits in the cage.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in the cage?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "062d44e624ad/5": {
+    "exp": "The entirety of the rabbits within the crate.",
+    "description": "The entirety of the rabbits within the crate.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target within the crate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3e2d55dc94fb/0": {
+    "exp": "Six ducks moving in sync.",
+    "description": "Six ducks moving in sync.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a duck?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3e2d55dc94fb/1": {
+    "exp": "The group of six ducks with coordinated movements.",
+    "description": "The group of six ducks with coordinated movements.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of six ducks?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3e2d55dc94fb/2": {
+    "exp": "The two dogs inside the fence.",
+    "description": "The two dogs inside the fence.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "3e2d55dc94fb/3": {
+    "exp": "Two dogs within the enclosure.",
+    "description": "Two dogs within the enclosure.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "3e2d55dc94fb/4": {
+    "exp": "The two dogs that are within the enclosure.",
+    "description": "The two dogs that are within the enclosure.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "982da887f54e/0": {
+    "exp": "a flock of poultry moving a little",
+    "description": "a flock of poultry moving a little",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a flock of poultry?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "982da887f54e/1": {
+    "exp": "A flock of moving poultry.",
+    "description": "A flock of moving poultry.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a flock?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "982da887f54e/2": {
+    "exp": "A group of mobile domestic birds.",
+    "description": "A group of mobile domestic birds.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a mobile domestic bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a mobile domestic bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a mobile domestic bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "982da887f54e/3": {
+    "exp": "Several migratory farm fowls in motion.",
+    "description": "Several migratory farm fowls in motion.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a migratory farm fowl?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "982da887f54e/4": {
+    "exp": "The flock of poultry is on the move.",
+    "description": "The flock of poultry is on the move.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "982da887f54e/5": {
+    "exp": "A cluster of wandering domesticated birds.",
+    "description": "A cluster of wandering domesticated birds.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cluster?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cluster?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cluster?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cluster?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cluster?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cluster?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/0": {
+    "exp": "Giraffe walking around with one leg up",
+    "description": "Giraffe walking around with one leg up",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/1": {
+    "exp": "Stationary car",
+    "description": "Stationary car",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/2": {
+    "exp": "giraffe whose right hind leg is held up by another giraffe's neck",
+    "description": "giraffe whose right hind leg is held up by another giraffe's neck",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's right hind leg held up by another giraffe's neck?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/3": {
+    "exp": "giraffe holding another giraffe's right hind leg by its neck",
+    "description": "giraffe holding another giraffe's right hind leg by its neck",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/4": {
+    "exp": "parked car without moving position",
+    "description": "parked car without moving position",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a parked car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in a static position?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/5": {
+    "exp": "The giraffe whose hind legs are lifted by another giraffe using its head.",
+    "description": "The giraffe whose hind legs are lifted by another giraffe using its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target having its hind legs lifted?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/6": {
+    "exp": "The giraffe with its hind legs raised by the other giraffe's head.",
+    "description": "The giraffe with its hind legs raised by the other giraffe's head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's hind legs raised?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/7": {
+    "exp": "The giraffe using its head and neck to lift the hind legs of the other giraffe.",
+    "description": "The giraffe using its head and neck to lift the hind legs of the other giraffe.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/8": {
+    "exp": "The giraffe raising the hind legs of the other giraffe with its head and neck.",
+    "description": "The giraffe raising the hind legs of the other giraffe with its head and neck.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/9": {
+    "exp": "The giraffe being lifted up by another giraffe's head, supporting its hind legs.",
+    "description": "The giraffe being lifted up by another giraffe's head, supporting its hind legs.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/10": {
+    "exp": "The giraffe whose hind legs are elevated by the other giraffe using its head.",
+    "description": "The giraffe whose hind legs are elevated by the other giraffe using its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/11": {
+    "exp": "The giraffe being hoisted up by the other giraffe's head, raising its hind legs.",
+    "description": "The giraffe being hoisted up by the other giraffe's head, raising its hind legs.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/12": {
+    "exp": "The giraffe whose hind legs are lifted off the ground by the other giraffe using its head.",
+    "description": "The giraffe whose hind legs are lifted off the ground by the other giraffe using its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/13": {
+    "exp": "The giraffe with its hind legs elevated by the other giraffe's head.",
+    "description": "The giraffe with its hind legs elevated by the other giraffe's head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having its hind legs elevated?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/14": {
+    "exp": "The giraffe being raised up by the other giraffe's head, with its hind legs in the air.",
+    "description": "The giraffe being raised up by the other giraffe's head, with its hind legs in the air.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/15": {
+    "exp": "The giraffe whose hind legs are raised by the other giraffe's head, suspended off the ground.",
+    "description": "The giraffe whose hind legs are raised by the other giraffe's head, suspended off the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target suspended off the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/16": {
+    "exp": "The giraffe with its hind legs supported by the other giraffe's head, lifted off the surface.",
+    "description": "The giraffe with its hind legs supported by the other giraffe's head, lifted off the surface.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "217b2ec36f5c/17": {
+    "exp": "The giraffe using its head and neck to elevate the hind legs of the other giraffe.",
+    "description": "The giraffe using its head and neck to elevate the hind legs of the other giraffe.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/18": {
+    "exp": "The giraffe lifting the hind legs of the other giraffe using its head and neck.",
+    "description": "The giraffe lifting the hind legs of the other giraffe using its head and neck.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/19": {
+    "exp": "The giraffe using its head and neck to hoist the hind legs of the other giraffe.",
+    "description": "The giraffe using its head and neck to hoist the hind legs of the other giraffe.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "217b2ec36f5c/20": {
+    "exp": "The giraffe using its head and neck to raise the hind legs of the other giraffe.",
+    "description": "The giraffe using its head and neck to raise the hind legs of the other giraffe.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a giraffe?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/0": {
+    "exp": "the bird preening its wings",
+    "description": "the bird preening its wings",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/1": {
+    "exp": "The bird that flew away first.",
+    "description": "The bird that flew away first.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/2": {
+    "exp": "The bird that flew away ahead of the others.",
+    "description": "The bird that flew away ahead of the others.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/3": {
+    "exp": "The bird that flew away second.",
+    "description": "The bird that flew away second.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/4": {
+    "exp": "The bird that was the second to fly away.",
+    "description": "The bird that was the second to fly away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/5": {
+    "exp": "The bird that followed the first two birds in flying away.",
+    "description": "The bird that followed the first two birds in flying away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/6": {
+    "exp": "The bird that flew away after the other two.",
+    "description": "The bird that flew away after the other two.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/7": {
+    "exp": "The fourth bird that flew away.",
+    "description": "The fourth bird that flew away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/8": {
+    "exp": "The bird that was the fourth to take off.",
+    "description": "The bird that was the fourth to take off.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/9": {
+    "exp": "The four birds that flew away.",
+    "description": "The four birds that flew away.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/10": {
+    "exp": "The group of birds that left in flight.",
+    "description": "The group of birds that left in flight.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of birds?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/11": {
+    "exp": "The last bird that appeared.",
+    "description": "The last bird that appeared.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/12": {
+    "exp": "The bird that showed up last.",
+    "description": "The bird that showed up last.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/13": {
+    "exp": "The bird that was the first to fly away.",
+    "description": "The bird that was the first to fly away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/14": {
+    "exp": "The bird that took off first.",
+    "description": "The bird that took off first.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/15": {
+    "exp": "The bird that departed earlier.",
+    "description": "The bird that departed earlier.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/16": {
+    "exp": "The second bird that took off.",
+    "description": "The second bird that took off.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/17": {
+    "exp": "The bird that departed after the first one.",
+    "description": "The bird that departed after the first one.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/18": {
+    "exp": "The bird that followed the first bird in flying away.",
+    "description": "The bird that followed the first bird in flying away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/19": {
+    "exp": "The third bird that flew away.",
+    "description": "The third bird that flew away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/20": {
+    "exp": "The bird that was the third to take off.",
+    "description": "The bird that was the third to take off.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/21": {
+    "exp": "The bird that departed after the first two.",
+    "description": "The bird that departed after the first two.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/22": {
+    "exp": "The bird that departed after the first three.",
+    "description": "The bird that departed after the first three.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/23": {
+    "exp": "The bird that followed the first three birds in flying away.",
+    "description": "The bird that followed the first three birds in flying away.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/24": {
+    "exp": "The bird that flew away after the other three.",
+    "description": "The bird that flew away after the other three.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/25": {
+    "exp": "The birds that took off and flew away.",
+    "description": "The birds that took off and flew away.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/26": {
+    "exp": "The birds that departed by flying away.",
+    "description": "The birds that departed by flying away.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/27": {
+    "exp": "The birds that flew off and left the area.",
+    "description": "The birds that flew off and left the area.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "45c9f1bf282f/28": {
+    "exp": "The final bird that came into view.",
+    "description": "The final bird that came into view.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/29": {
+    "exp": "The last one of the birds to appear.",
+    "description": "The last one of the birds to appear.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "45c9f1bf282f/30": {
+    "exp": "The bird that was the latest to show up.",
+    "description": "The bird that was the latest to show up.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "b3f85bc98424/0": {
+    "exp": "Fish swimming around",
+    "description": "Fish swimming around",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b3f85bc98424/1": {
+    "exp": "The five fish swimming in the fish tank.",
+    "description": "The five fish swimming in the fish tank.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b3f85bc98424/2": {
+    "exp": "The black fish in the fish tank.",
+    "description": "The black fish in the fish tank.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the fish tank?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b3f85bc98424/3": {
+    "exp": "The fish in the aquarium moving around.",
+    "description": "The fish in the aquarium moving around.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b3f85bc98424/4": {
+    "exp": "The fish that are in motion inside the water tank.",
+    "description": "The fish that are in motion inside the water tank.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "b3f85bc98424/5": {
+    "exp": "The group of fish swimming inside the tank.",
+    "description": "The group of fish swimming inside the tank.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target inside the tank?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/0": {
+    "exp": "Turtle swimming forward",
+    "description": "Turtle swimming forward",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a turtle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/1": {
+    "exp": "Human hands moving",
+    "description": "Human hands moving",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a human hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/2": {
+    "exp": "The turtle moving to the right.",
+    "description": "The turtle moving to the right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "8ec86a7f4201/3": {
+    "exp": "The turtle that is going to the right.",
+    "description": "The turtle that is going to the right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "8ec86a7f4201/4": {
+    "exp": "The unmoving pair of turtles.",
+    "description": "The unmoving pair of turtles.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a pair of turtles?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's position static?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/5": {
+    "exp": "The two turtles in a state of stillness.",
+    "description": "The two turtles in a state of stillness.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "8ec86a7f4201/6": {
+    "exp": "The little turtle swimming over from the far right.",
+    "description": "The little turtle swimming over from the far right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a little turtle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/7": {
+    "exp": "The right-moving turtle.",
+    "description": "The right-moving turtle.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a turtle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/8": {
+    "exp": "The turtle moving in the right direction.",
+    "description": "The turtle moving in the right direction.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a turtle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/9": {
+    "exp": "The turtle going towards the right side.",
+    "description": "The turtle going towards the right side.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a turtle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "8ec86a7f4201/10": {
+    "exp": "The two turtles with no movement.",
+    "description": "The two turtles with no movement.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "8ec86a7f4201/11": {
+    "exp": "The two turtles that are motionless.",
+    "description": "The two turtles that are motionless.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "8ec86a7f4201/12": {
+    "exp": "The turtles not doing anything at all.",
+    "description": "The turtles not doing anything at all.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a turtle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/0": {
+    "exp": "Cat turning around and playing with toy",
+    "description": "Cat turning around and playing with toy",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/1": {
+    "exp": "Human hand controlling toy",
+    "description": "Human hand controlling toy",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a human hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/2": {
+    "exp": "The kitten playing with the cat teaser",
+    "description": "The kitten playing with the cat teaser",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a kitten?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/3": {
+    "exp": "the cat in the back, walk from right to left",
+    "description": "the cat in the back, walk from right to left",
+    "type": 1,
+    "qa_complete": []
+  },
+  "83b4fc545af8/4": {
+    "exp": "The cat playing with the teaser wand toy.",
+    "description": "The cat playing with the teaser wand toy.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/5": {
+    "exp": "The cat is batting at the teasing wand toy.",
+    "description": "The cat is batting at the teasing wand toy.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/6": {
+    "exp": "It enthusiastically chases and pounces on the wand.",
+    "description": "It enthusiastically chases and pounces on the wand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target chasing and pouncing on the wand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/7": {
+    "exp": "The feline's eyes are focused on the moving toy.",
+    "description": "The feline's eyes are focused on the moving toy.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a feline?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/8": {
+    "exp": "It happily engages in the playful activity.",
+    "description": "It happily engages in the playful activity.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target engaging in a playful activity?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/9": {
+    "exp": "The cat that is playing with the feather toy.",
+    "description": "The cat that is playing with the feather toy.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/10": {
+    "exp": "The cat not engaging with the feather toy took a few steps to the left.",
+    "description": "The cat not engaging with the feather toy took a few steps to the left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "83b4fc545af8/11": {
+    "exp": "The cat without interest in the feather toy walking a few steps to the left.",
+    "description": "The cat without interest in the feather toy walking a few steps to the left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "83b4fc545af8/12": {
+    "exp": "A few steps to the left, the cat not interested in the feather toy moving.",
+    "description": "A few steps to the left, the cat not interested in the feather toy moving.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a few steps to the left?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/13": {
+    "exp": "The hand waving the feather toy for the cat.",
+    "description": "The hand waving the feather toy for the cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/14": {
+    "exp": "The person holding the feather toy, waving it for the cat.",
+    "description": "The person holding the feather toy, waving it for the cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/15": {
+    "exp": "The person waving the feather toy to engage the cat.",
+    "description": "The person waving the feather toy to engage the cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/16": {
+    "exp": "The cat that wasn't playing with the feather toy moved leftward.",
+    "description": "The cat that wasn't playing with the feather toy moved leftward.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "83b4fc545af8/17": {
+    "exp": "The cat that wasn't playing with the feather toy proceeded to move leftward.",
+    "description": "The cat that wasn't playing with the feather toy proceeded to move leftward.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "83b4fc545af8/18": {
+    "exp": "The hand that moves the feather toy to entice the cat.",
+    "description": "The hand that moves the feather toy to entice the cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "83b4fc545af8/19": {
+    "exp": "The hand holding the feather toy and waving it to play with the cat.",
+    "description": "The hand holding the feather toy and waving it to play with the cat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/0": {
+    "exp": "Birds moving to the left",
+    "description": "Birds moving to the left",
+    "type": 1,
+    "qa_complete": []
+  },
+  "3cb187e0303a/1": {
+    "exp": "Sky blue parrot standing on the left side of the pole",
+    "description": "Sky blue parrot standing on the left side of the pole",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a parrot?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sky blue?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the left side of the pole?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/2": {
+    "exp": "sky blue parrot standing on a food box eating",
+    "description": "sky blue parrot standing on a food box eating",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a parrot?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sky blue?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target standing on a food box?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/3": {
+    "exp": "The bird standing on the food bowl, lowering and raising its head.",
+    "description": "The bird standing on the food bowl, lowering and raising its head.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "3cb187e0303a/4": {
+    "exp": "The bird standing on the food container, bowing and lifting its head.",
+    "description": "The bird standing on the food container, bowing and lifting its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target standing on the food container?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/5": {
+    "exp": "The bird gripping the pole with its body facing downward.",
+    "description": "The bird gripping the pole with its body facing downward.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target gripping the pole?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/6": {
+    "exp": "The bird holding onto the pole and facing downwards.",
+    "description": "The bird holding onto the pole and facing downwards.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target holding onto the pole?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/7": {
+    "exp": "The bird hanging from the pole with its body pointing downwards.",
+    "description": "The bird hanging from the pole with its body pointing downwards.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target hanging from the pole?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's body pointing downwards?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/8": {
+    "exp": "The parrot on the pole, moving to the left under compulsion.",
+    "description": "The parrot on the pole, moving to the left under compulsion.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "3cb187e0303a/9": {
+    "exp": "The parrot positioned on the pole, being obliged to slide to the left.",
+    "description": "The parrot positioned on the pole, being obliged to slide to the left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "3cb187e0303a/10": {
+    "exp": "The bird on top of the food bowl, alternating between lowering and raising its head.",
+    "description": "The bird on top of the food bowl, alternating between lowering and raising its head.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "3cb187e0303a/11": {
+    "exp": "The bird perched on the food bowl, tilting its head up and down.",
+    "description": "The bird perched on the food bowl, tilting its head up and down.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the food bowl?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/12": {
+    "exp": "The bird on the food box, lowering and raising its head.",
+    "description": "The bird on the food box, lowering and raising its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the food box?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/13": {
+    "exp": "The bird clenching the pole while being upside down.",
+    "description": "The bird clenching the pole while being upside down.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target upside down?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "3cb187e0303a/14": {
+    "exp": "The bird grasping the pole and being in a downward position.",
+    "description": "The bird grasping the pole and being in a downward position.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/0": {
+    "exp": "four elephants walking",
+    "description": "four elephants walking",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "059233943835/1": {
+    "exp": "The elephant walking at the front of the line.",
+    "description": "The elephant walking at the front of the line.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the front of the line?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "059233943835/2": {
+    "exp": "The elephant walking in the second position of the procession.",
+    "description": "The elephant walking in the second position of the procession.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/3": {
+    "exp": "The elephant at the second spot in the line.",
+    "description": "The elephant at the second spot in the line.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/4": {
+    "exp": "The elephant walking as the third one in the procession.",
+    "description": "The elephant walking as the third one in the procession.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/5": {
+    "exp": "The third elephant in the lineup.",
+    "description": "The third elephant in the lineup.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/6": {
+    "exp": "The elephant walking as the fourth one in the procession.",
+    "description": "The elephant walking as the fourth one in the procession.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/7": {
+    "exp": "The fourth elephant in the lineup.",
+    "description": "The fourth elephant in the lineup.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/8": {
+    "exp": "The leading elephant in the procession.",
+    "description": "The leading elephant in the procession.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/9": {
+    "exp": "The elephant at the forefront of the group.",
+    "description": "The elephant at the forefront of the group.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the forefront of the group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "059233943835/10": {
+    "exp": "The first elephant in the queue.",
+    "description": "The first elephant in the queue.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/11": {
+    "exp": "The frontmost elephant in the line.",
+    "description": "The frontmost elephant in the line.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/12": {
+    "exp": "The second elephant in the queue.",
+    "description": "The second elephant in the queue.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/13": {
+    "exp": "The elephant following the leader in the lineup.",
+    "description": "The elephant following the leader in the lineup.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "059233943835/14": {
+    "exp": "The elephant positioned right after the frontmost one in the line.",
+    "description": "The elephant positioned right after the frontmost one in the line.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/15": {
+    "exp": "The elephant at the third spot in the queue.",
+    "description": "The elephant at the third spot in the queue.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/16": {
+    "exp": "The elephant following the first two in the line.",
+    "description": "The elephant following the first two in the line.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/17": {
+    "exp": "The elephant positioned after the second one in the procession.",
+    "description": "The elephant positioned after the second one in the procession.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/18": {
+    "exp": "The elephant at the fourth spot in the queue.",
+    "description": "The elephant at the fourth spot in the queue.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/19": {
+    "exp": "The elephant following the first three in the line.",
+    "description": "The elephant following the first three in the line.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "059233943835/20": {
+    "exp": "The elephant positioned after the third one in the procession.",
+    "description": "The elephant positioned after the third one in the procession.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "393e589b401b/0": {
+    "exp": "Cat sitting",
+    "description": "Cat sitting",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "393e589b401b/1": {
+    "exp": "biggest sitting without moving position",
+    "description": "biggest sitting without moving position",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sitting position?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target the biggest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target static?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "393e589b401b/2": {
+    "exp": "The three kittens playing together.",
+    "description": "The three kittens playing together.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "393e589b401b/3": {
+    "exp": "The three young cats frolicking together.",
+    "description": "The three young cats frolicking together.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "393e589b401b/4": {
+    "exp": "The big cat sitting beside the three kittens.",
+    "description": "The big cat sitting beside the three kittens.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target big?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting beside the three kittens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "393e589b401b/5": {
+    "exp": "The trio of little cats having fun.",
+    "description": "The trio of little cats having fun.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a little cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "393e589b401b/6": {
+    "exp": "The group of playful kittens.",
+    "description": "The group of playful kittens.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "393e589b401b/7": {
+    "exp": "The three small cats engaging in playtime.",
+    "description": "The three small cats engaging in playtime.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/0": {
+    "exp": "The first car turning.",
+    "description": "The first car turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/1": {
+    "exp": "The leading car that is changing direction.",
+    "description": "The leading car that is changing direction.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/2": {
+    "exp": "The initial car that is making a turn.",
+    "description": "The initial car that is making a turn.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/3": {
+    "exp": "The second car turning.",
+    "description": "The second car turning.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a second car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/4": {
+    "exp": "The car right after the first one that is making a turn.",
+    "description": "The car right after the first one that is making a turn.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/5": {
+    "exp": "The third car turning.",
+    "description": "The third car turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/6": {
+    "exp": "The car that is making a turn as the fourth one.",
+    "description": "The car that is making a turn as the fourth one.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/7": {
+    "exp": "The vehicle taking a corner in the fourth position.",
+    "description": "The vehicle taking a corner in the fourth position.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/8": {
+    "exp": "The vehicle making a turn as the last one.",
+    "description": "The vehicle making a turn as the last one.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/9": {
+    "exp": "The car taking a corner in the final position.",
+    "description": "The car taking a corner in the final position.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/10": {
+    "exp": "The individual boarding the car parked on the side of the road.",
+    "description": "The individual boarding the car parked on the side of the road.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target boarding the car parked on the side of the road?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/11": {
+    "exp": "The person who has entered the parked car on the roadside.",
+    "description": "The person who has entered the parked car on the roadside.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in the parked car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/12": {
+    "exp": "The car parked by the roadside without moving.",
+    "description": "The car parked by the roadside without moving.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target parked by the roadside?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/13": {
+    "exp": "The vehicle that is parked at the side of the road and hasn't moved.",
+    "description": "The vehicle that is parked at the side of the road and hasn't moved.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a vehicle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target parked at the side of the road?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/14": {
+    "exp": "Five cars turning one after another while in motion.",
+    "description": "Five cars turning one after another while in motion.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/15": {
+    "exp": "The five cars are making consecutive turns while moving.",
+    "description": "The five cars are making consecutive turns while moving.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "73111873f72a/16": {
+    "exp": "The first vehicle taking a corner.",
+    "description": "The first vehicle taking a corner.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/17": {
+    "exp": "The car that is making a turn as the second one.",
+    "description": "The car that is making a turn as the second one.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/18": {
+    "exp": "The vehicle taking a corner in the second position.",
+    "description": "The vehicle taking a corner in the second position.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/19": {
+    "exp": "The second car in the process of turning.",
+    "description": "The second car in the process of turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/20": {
+    "exp": "The car that is making a turn as the third one.",
+    "description": "The car that is making a turn as the third one.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/21": {
+    "exp": "The vehicle taking a corner in the third position.",
+    "description": "The vehicle taking a corner in the third position.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/22": {
+    "exp": "The third car in the process of turning.",
+    "description": "The third car in the process of turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/23": {
+    "exp": "The car right after the second one that is making a turn.",
+    "description": "The car right after the second one that is making a turn.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/24": {
+    "exp": "The fourth car turning.",
+    "description": "The fourth car turning.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/25": {
+    "exp": "The fourth car in the process of turning.",
+    "description": "The fourth car in the process of turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/26": {
+    "exp": "The car right after the third one that is making a turn.",
+    "description": "The car right after the third one that is making a turn.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/27": {
+    "exp": "The last car turning.",
+    "description": "The last car turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/28": {
+    "exp": "The last car in the process of turning.",
+    "description": "The last car in the process of turning.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/29": {
+    "exp": "The car right after all the other cars that is making a turn.",
+    "description": "The car right after all the other cars that is making a turn.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target the car right after all the other cars?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/30": {
+    "exp": "The person who got on the car parked by the roadside.",
+    "description": "The person who got on the car parked by the roadside.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/31": {
+    "exp": "The individual who got onto the car that is parked at the side of the road.",
+    "description": "The individual who got onto the car that is parked at the side of the road.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an individual?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/32": {
+    "exp": "The person who has stepped into the parked car by the curb.",
+    "description": "The person who has stepped into the parked car by the curb.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/33": {
+    "exp": "The car that remains stationary on the side of the road.",
+    "description": "The car that remains stationary on the side of the road.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the side of the road?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/34": {
+    "exp": "The parked car that has not been in motion.",
+    "description": "The parked car that has not been in motion.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a parked car?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/35": {
+    "exp": "The vehicle standing still by the curb.",
+    "description": "The vehicle standing still by the curb.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target by the curb?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "73111873f72a/36": {
+    "exp": "These five cars are sequentially turning one after another during their journey.",
+    "description": "These five cars are sequentially turning one after another during their journey.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "73111873f72a/37": {
+    "exp": "The cars are making consecutive turns one after the other as they drive along.",
+    "description": "The cars are making consecutive turns one after the other as they drive along.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "eb1e5a4f5dfd/0": {
+    "exp": "the left one at begining",
+    "description": "the left one at begining",
+    "type": 1,
+    "qa_complete": []
+  },
+  "eb1e5a4f5dfd/1": {
+    "exp": "the right one at initial frame",
+    "description": "the right one at initial frame",
+    "type": 1,
+    "qa_complete": []
+  },
+  "eb1e5a4f5dfd/2": {
+    "exp": "middle red fish in the start frame",
+    "description": "middle red fish in the start frame",
+    "type": 1,
+    "qa_complete": []
+  },
+  "eb1e5a4f5dfd/3": {
+    "exp": "The trio of fish gliding through the water.",
+    "description": "The trio of fish gliding through the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a trio?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "eb1e5a4f5dfd/4": {
+    "exp": "The three fish that keep moving in a swim.",
+    "description": "The three fish that keep moving in a swim.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "eb1e5a4f5dfd/5": {
+    "exp": "The three fish swimming back and forth.",
+    "description": "The three fish swimming back and forth.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "eb1e5a4f5dfd/6": {
+    "exp": "The group of three fish swimming around.",
+    "description": "The group of three fish swimming around.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of three fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "eb1e5a4f5dfd/7": {
+    "exp": "The three fish that are continuously swimming.",
+    "description": "The three fish that are continuously swimming.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target continuously swimming?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "fe717b155b8e/0": {
+    "exp": "A group of seven fish gliding through the water.",
+    "description": "A group of seven fish gliding through the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group of seven fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "fe717b155b8e/1": {
+    "exp": "Seven fish gracefully moving through the water.",
+    "description": "Seven fish gracefully moving through the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "2361d1ebb72a/0": {
+    "exp": "Person walking from right to left",
+    "description": "Person walking from right to left",
+    "type": 1,
+    "qa_complete": []
+  },
+  "2361d1ebb72a/1": {
+    "exp": "black tail dog",
+    "description": "black tail dog",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a dog?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's tail black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "2361d1ebb72a/2": {
+    "exp": "The two dogs are currently fighting with each other.",
+    "description": "The two dogs are currently fighting with each other.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "2361d1ebb72a/3": {
+    "exp": "A pair of dogs is actively battling each other.",
+    "description": "A pair of dogs is actively battling each other.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a pair of dogs?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "2361d1ebb72a/4": {
+    "exp": "The individual is moving in the leftward direction.",
+    "description": "The individual is moving in the leftward direction.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target moving in the leftward direction?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "2361d1ebb72a/5": {
+    "exp": "That person is going to the left side.",
+    "description": "That person is going to the left side.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "2361d1ebb72a/6": {
+    "exp": "He is walking towards the left.",
+    "description": "He is walking towards the left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target walking towards the left?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "2361d1ebb72a/7": {
+    "exp": "Two dogs engaged in a fierce fight.",
+    "description": "Two dogs engaged in a fierce fight.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "2361d1ebb72a/8": {
+    "exp": "Both dogs are in the midst of a brawl.",
+    "description": "Both dogs are in the midst of a brawl.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "2361d1ebb72a/9": {
+    "exp": "The two fighting dogs are displaying aggressive behavior.",
+    "description": "The two fighting dogs are displaying aggressive behavior.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "2361d1ebb72a/10": {
+    "exp": "The person is walking to the left.",
+    "description": "The person is walking to the left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target walking to the left?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "ff6295ebcc56/0": {
+    "exp": "Goat lying down",
+    "description": "Goat lying down",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying down?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "ff6295ebcc56/1": {
+    "exp": "the goat standing behind",
+    "description": "the goat standing behind",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target behind?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "ff6295ebcc56/2": {
+    "exp": "goat climbing up and looking out",
+    "description": "goat climbing up and looking out",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "ff6295ebcc56/3": {
+    "exp": "Two goats first standing up and approaching.",
+    "description": "Two goats first standing up and approaching.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "ff6295ebcc56/4": {
+    "exp": "The last goat standing up and poking its head out.",
+    "description": "The last goat standing up and poking its head out.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "ff6295ebcc56/5": {
+    "exp": "The last goat rising, exposing its head.",
+    "description": "The last goat rising, exposing its head.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "ff6295ebcc56/6": {
+    "exp": "unmoving animal on the leftmost",
+    "description": "unmoving animal on the leftmost",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the leftmost?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "ff6295ebcc56/7": {
+    "exp": "Two goats standing up and approaching.",
+    "description": "Two goats standing up and approaching.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "ff6295ebcc56/8": {
+    "exp": "Two goats getting up and moving closer.",
+    "description": "Two goats getting up and moving closer.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "ff6295ebcc56/9": {
+    "exp": "Two goats standing and moving towards us.",
+    "description": "Two goats standing and moving towards us.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "ff6295ebcc56/10": {
+    "exp": "The two goats on their feet and advancing towards us.",
+    "description": "The two goats on their feet and advancing towards us.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "fb964058e182/0": {
+    "exp": "long fishes moving around",
+    "description": "long fishes moving around",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target long?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "fb964058e182/1": {
+    "exp": "The big fish facing towards us.",
+    "description": "The big fish facing towards us.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target big?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target facing towards us?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "fb964058e182/2": {
+    "exp": "The six elongated fish swimming around.",
+    "description": "The six elongated fish swimming around.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target elongated?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "fb964058e182/3": {
+    "exp": "A group of six fish gracefully gliding through the water.",
+    "description": "A group of six fish gracefully gliding through the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a group?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "fb964058e182/4": {
+    "exp": "The large fish looking in our direction.",
+    "description": "The large fish looking in our direction.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target large?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  }
+}

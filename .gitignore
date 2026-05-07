@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# vLLM / runtime logs (per-shard error/feedback files)
+error_*.txt
+oom_*.txt
+feedback_*.txt
+
+# SAM2 weights (download via sam2/checkpoints/download_ckpts.sh)
+sam2/checkpoints/*.pt
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local datasets / outputs that shouldn't be in repo
+data/
+
+# In-flight runs
+nohup.out
+*.log

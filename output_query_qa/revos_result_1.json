@@ -1,0 +1,7193 @@
+{
+  "LV-VIS/val/00513/1": {
+    "exp": "Which raccoon hangs on the wheel at the start of the video?",
+    "description": "The target hangs on the wheel at the start of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/7": {
+    "exp": "the object(s) hanging on the wall being swung back and forth by a raccoon.",
+    "description": "the object(s) hanging on the wall being swung back and forth by a raccoon.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/8": {
+    "exp": "the object that is hung on the wall and shaken left and right by raccoons.",
+    "description": "the object that is hung on the wall and shaken left and right by raccoons.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target hung on the wall?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00513/27": {
+    "exp": "the raccoon(s) that last touched the bicycle wheel.",
+    "description": "the raccoon(s) that last touched the bicycle wheel.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/28": {
+    "exp": "the raccoon that touches the bicycle wheel last.",
+    "description": "the raccoon that touches the bicycle wheel last.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/29": {
+    "exp": "Which raccoon touched the bicycle wheel last?",
+    "description": "The raccoon touched the bicycle wheel last.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/30": {
+    "exp": "Which raccoon(s) last touched the bicycle wheel?",
+    "description": "The raccoons last touched the bicycle wheel.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/33": {
+    "exp": "Which raccoon is the first to fall off the tire?",
+    "description": "The raccoon is the first to fall off the tire.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/34": {
+    "exp": "Which raccoon(s) is/are the first to fall off the tire?",
+    "description": "The first raccoon to fall off the tire is the target.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00513/35": {
+    "exp": "the object(s) powered by leg force without an engine, having two wheels.",
+    "description": "the object(s) powered by leg force without an engine, having two wheels.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object powered by leg force without an engine and having two wheels?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00513/38": {
+    "exp": "the object with two wheels that exerts force through the legs and has no engine.",
+    "description": "the object with two wheels that exerts force through the legs and has no engine.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00513/39": {
+    "exp": "Which object(s), powered solely by leg strength without an engine, have two wheels?",
+    "description": "Objects powered solely by leg strength without an engine have two wheels.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object powered solely by leg strength without an engine?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00244/2": {
+    "exp": "Which hyena is running around the other two?",
+    "description": "A hyena is running around the other two.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a hyena?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00244/19": {
+    "exp": "the jackal on the right side of the picture.",
+    "description": "the jackal on the right side of the picture.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a jackal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the right side of the picture?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00244/22": {
+    "exp": "Which jackal came out from the bottom right?",
+    "description": "The jackal came out from the bottom right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a jackal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00244/23": {
+    "exp": "Which jackal popped out from the bottom right?",
+    "description": "A jackal popped out from the bottom right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a jackal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00244/24": {
+    "exp": "Which jackal rushed out from the bottom right?",
+    "description": "A jackal rushed out from the bottom right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a jackal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target located at the bottom right?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00244/27": {
+    "exp": "the jackal that emerged from the bottom right.",
+    "description": "the jackal that emerged from the bottom right.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a jackal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/0": {
+    "exp": "reptile(s) belonging to the Ophidia suborder.",
+    "description": "reptile(s) belonging to the Ophidia suborder.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a reptile?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/1": {
+    "exp": "object(s) belonging to the order Squamata of reptiles.",
+    "description": "object(s) belonging to the order Squamata of reptiles.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a member of the order Squamata?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a member of the order Squamata?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a member of the order Squamata?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a member of the order Squamata?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/2": {
+    "exp": "Which object(s) belong(s) to the order Squamata of reptiles?",
+    "description": "Objects belong to the order Squamata of reptiles.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a member of the order Squamata?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/6": {
+    "exp": "Which object(s) is/are in the man's hand(s)?",
+    "description": "Objects are in the man's hands.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in the man's hands?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/8": {
+    "exp": "the object(s) that keeps entangling the man's hand.",
+    "description": "the object(s) that keeps entangling the man's hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/16": {
+    "exp": "Which object(s), wearing a black short-sleeved shirt and black pants, can be found in the video?",
+    "description": "Objects wearing a black short-sleeved shirt and black pants can be found in the video.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a black short-sleeved shirt and black pants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a black short-sleeved shirt and black pants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/20": {
+    "exp": "Which animal belongs to one of the Chinese zodiac signs?",
+    "description": "An animal belongs to one of the Chinese zodiac signs.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a Chinese zodiac sign?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/22": {
+    "exp": "Which animal belongs to one of the Chinese zodiac?",
+    "description": "An animal belongs to one of the Chinese zodiac.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a Chinese zodiac animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/25": {
+    "exp": "animal(s) that is/are one of the twelve zodiac animals.",
+    "description": "animal(s) that is/are one of the twelve zodiac animals.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target one of the twelve zodiac animals?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/28": {
+    "exp": "Which creature(s) belongs to cold-blooded animals?",
+    "description": "The target belongs to cold-blooded animals.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cold-blooded animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/30": {
+    "exp": "the creature that is a cold-blooded animal.",
+    "description": "the creature that is a cold-blooded animal.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cold-blooded animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/32": {
+    "exp": "creature(s) that is/are cold-blooded animal(s).",
+    "description": "creature(s) that is/are cold-blooded animal(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cold-blooded animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/37": {
+    "exp": "Which animal(s), with reduced limbs, move rapidly by contracting their abdominal muscles and flexing their bodies?",
+    "description": "Animals with reduced limbs move rapidly by contracting their abdominal muscles and flexing their bodies.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal with reduced limbs?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having reduced limbs?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/38": {
+    "exp": "Which animal(s) is/are a poikilotherm whose body temperature changes with the air temperature?",
+    "description": "Poikilotherms are animals whose body temperature changes with the air temperature.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/39": {
+    "exp": "Which animal(s) is/are a poikilothermic animal whose body temperature changes with the air temperature?",
+    "description": "The animal(s) is/are a poikilothermic animal whose body temperature changes with the air temperature.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a poikilothermic animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/42": {
+    "exp": "animal(s) that is/are poikilothermic animals whose body temperature changes with the air temperature.",
+    "description": "animal(s) that is/are poikilothermic animals whose body temperature changes with the air temperature.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a poikilothermic animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/47": {
+    "exp": "the object in the man's hand.",
+    "description": "the object in the man's hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in the man's hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/49": {
+    "exp": "Which item is the man holding in his hand?",
+    "description": "The man is holding an item in his hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding an item in his hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-NljOk6doRg/50": {
+    "exp": "the object continuously wrapping around the man's hand.",
+    "description": "the object continuously wrapping around the man's hand.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-NljOk6doRg/52": {
+    "exp": "Which object is persistently twirling around the man's hand?",
+    "description": "An object is persistently twirling around the man's hand.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-NljOk6doRg/54": {
+    "exp": "the object dressed in black short sleeve and black pants.",
+    "description": "the object dressed in black short sleeve and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target dressed in black short sleeve and black pants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/5": {
+    "exp": "the person holding a communication device(s).",
+    "description": "the person holding a communication device(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding a communication device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/7": {
+    "exp": "Which person is holding the communication device(s)?",
+    "description": "The target is holding the communication device(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding the communication device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/9": {
+    "exp": "Which person is holding a communication device?",
+    "description": "A target is holding a communication device.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding a communication device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/20": {
+    "exp": "the object(s) carrying ammunition.",
+    "description": "the object(s) carrying ammunition.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target carrying ammunition?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/43": {
+    "exp": "footwear designed for protecting the feet and facilitating walking.",
+    "description": "footwear designed for protecting the feet and facilitating walking.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a footwear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/46": {
+    "exp": "the wearable item(s) used to protect the feet and facilitate walking.",
+    "description": "the wearable item(s) used to protect the feet and facilitate walking.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a wearable item?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/48": {
+    "exp": "Which creature has better eyesight?",
+    "description": "The creature has better eyesight.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature with better eyesight?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/54": {
+    "exp": "the creature whose shoes are more resistant to dirt.",
+    "description": "the creature whose shoes are more resistant to dirt.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's shoes more resistant to dirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00498/55": {
+    "exp": "the creature whose shoes are more dirt-resistant.",
+    "description": "the creature whose shoes are more dirt-resistant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/6691uZARdms/20": {
+    "exp": "the gray floor mat(s) with patterns.",
+    "description": "the gray floor mat(s) with patterns.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a floor mat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target gray?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/6691uZARdms/21": {
+    "exp": "Which gray mat(s) have patterns?",
+    "description": "Gray mats have patterns.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "UVO/all/6691uZARdms/31": {
+    "exp": "the log-colored stick(s).",
+    "description": "the log-colored stick(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a stick?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target log-colored?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/6691uZARdms/32": {
+    "exp": "the stick(s) in log color.",
+    "description": "the stick(s) in log color.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in log color?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/6691uZARdms/35": {
+    "exp": "Which stick(s) are in a log-like color?",
+    "description": "Sticks are in a log-like color.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a stick?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in a log-like color?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/6691uZARdms/46": {
+    "exp": "the gym gear laying on the padding.",
+    "description": "the gym gear laying on the padding.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a gym gear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the padding?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0iDnfVQKuAY/0": {
+    "exp": "the black object(s) floating in the water on the left side of the video's ending frame.",
+    "description": "the black object(s) floating in the water on the left side of the video's ending frame.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0iDnfVQKuAY/15": {
+    "exp": "the black object soaking in water on the left side of the end of the video.",
+    "description": "the black object soaking in water on the left side of the end of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0iDnfVQKuAY/17": {
+    "exp": "Which entity is dark and immersed in water on the left side of the video ending?",
+    "description": "The entity is dark and immersed in water on the left side of the video ending.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/30Z30WZj25E/2": {
+    "exp": "Which person(s) is/are sitting in the wheelchair?",
+    "description": "A person is sitting in the wheelchair.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting in the wheelchair?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/9": {
+    "exp": "the person(s) lying on the ground.",
+    "description": "the person(s) lying on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target lying on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/10": {
+    "exp": "the person who is lying on the ground.",
+    "description": "the person who is lying on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/11": {
+    "exp": "Which person(s) is/are lying on the ground?",
+    "description": "A person is lying on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/12": {
+    "exp": "the person(s) who are lying on the ground.",
+    "description": "the person(s) who are lying on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target lying on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/13": {
+    "exp": "the person who fell on the ground.",
+    "description": "the person who fell on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/16": {
+    "exp": "chair(s) that can help substitute for walking.",
+    "description": "chair(s) that can help substitute for walking.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a chair?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/17": {
+    "exp": "Which chair(s) are designed to assist with walking?",
+    "description": "Chairs are designed to assist with walking.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a walking aid?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/23": {
+    "exp": "Which person is pulling the wheelchair by hand?",
+    "description": "A person is pulling the wheelchair by hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/24": {
+    "exp": "the person who propels a wheelchair by hand.",
+    "description": "the person who propels a wheelchair by hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/25": {
+    "exp": "Which person(s) is/are pulling a wheelchair by hand?",
+    "description": "A person is pulling a wheelchair by hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/26": {
+    "exp": "the object(s) secured by a flat surface, legs, and other supporting elements.",
+    "description": "the object(s) secured by a flat surface, legs, and other supporting elements.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target secured by a flat surface?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/27": {
+    "exp": "the object(s) fixed by the flat plate, the legs and other supports.",
+    "description": "the object(s) fixed by the flat plate, the legs and other supports.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in a fixed position?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/41": {
+    "exp": "portable telephone device(s) usable over a wide range.",
+    "description": "portable telephone device(s) usable over a wide range.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a portable telephone device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/42": {
+    "exp": "portable telephone terminal(s) that can be used in a relatively wide range.",
+    "description": "portable telephone terminal(s) that can be used in a relatively wide range.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a portable telephone terminal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/46": {
+    "exp": "the person in pain.",
+    "description": "the person in pain.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/47": {
+    "exp": "the seat for mobility assistance.",
+    "description": "the seat for mobility assistance.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a seat for mobility assistance?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/51": {
+    "exp": "Which person is manually moving the wheelchair?",
+    "description": "The target is manually moving the wheelchair.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target manually moving the wheelchair?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/52": {
+    "exp": "the person lying on the ground.",
+    "description": "the person lying on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/53": {
+    "exp": "the individual on the ground.",
+    "description": "the individual on the ground.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the ground?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/30Z30WZj25E/54": {
+    "exp": "Which object is used for providing electrical energy on the table?",
+    "description": "The object is used for providing electrical energy on the table.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the table?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/2": {
+    "exp": "people watching two large gorillas",
+    "description": "people watching two large gorillas",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a gorilla?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target large?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/9": {
+    "exp": "the gorilla that jumps backward to defend against an attack and roars with its mouth open.",
+    "description": "the gorilla that jumps backward to defend against an attack and roars with its mouth open.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a gorilla?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's mouth open?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/10": {
+    "exp": "the gorilla that jumps backwards to resist the attack and opens its mouth to roar.",
+    "description": "the gorilla that jumps backwards to resist the attack and opens its mouth to roar.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00041/11": {
+    "exp": "Which gorilla jumps backwards to resist the attack and opens its mouth to roar?",
+    "description": "Target jumps backwards to resist the attack and opens its mouth to roar.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target jumping backwards?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/14": {
+    "exp": "Which gorilla jumps backward to defend against an attack and roars with its mouth open?",
+    "description": "Gorilla jumps backward to defend against an attack and roars with its mouth open.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a gorilla?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's mouth open?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/15": {
+    "exp": "the gorilla(s) that are on the right side of the frame at the beginning of the video.",
+    "description": "the gorilla(s) that are on the right side of the frame at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00041/39": {
+    "exp": "Which object(s) have black hair and are not wearing a hat?",
+    "description": "Objects have black hair and are not wearing a hat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's hair black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/40": {
+    "exp": "the object(s) that appear(s) in the lower left corner of the video later on.",
+    "description": "the object(s) that appear(s) in the lower left corner of the video later on.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00041/47": {
+    "exp": "Which object(s) is/are holding a phone?",
+    "description": "An object is holding a phone.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/48": {
+    "exp": "the object(s) being watched during the fight between two gorillas.",
+    "description": "the object(s) being watched during the fight between two gorillas.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00041/49": {
+    "exp": "the object that is watching the battle between the two gorillas.",
+    "description": "the object that is watching the battle between the two gorillas.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/50": {
+    "exp": "Which object is watching the two gorillas fighting?",
+    "description": "The object is watching the two gorillas fighting.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target watching the two gorillas fighting?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/51": {
+    "exp": "the object(s) being watched while two gorillas are fighting.",
+    "description": "the object(s) being watched while two gorillas are fighting.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/52": {
+    "exp": "the object that is watching the fight between two gorillas.",
+    "description": "the object that is watching the fight between two gorillas.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/53": {
+    "exp": "Which object(s) is/are being watched while two gorillas are fighting?",
+    "description": "Objects are being watched while two gorillas are fighting.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/56": {
+    "exp": "Which of the three primates has the highest intelligence?",
+    "description": "One of the three primates has the highest intelligence.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/57": {
+    "exp": "the primate among the three with the highest intelligence.",
+    "description": "the primate among the three with the highest intelligence.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00041/58": {
+    "exp": "the primate among the three that has the highest intelligence.",
+    "description": "the primate among the three that has the highest intelligence.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/4": {
+    "exp": "the timekeeping device worn on the wrist",
+    "description": "the timekeeping device worn on the wrist",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a timekeeping device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target worn on the wrist?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/6": {
+    "exp": "What is worn on the wrist to track time?",
+    "description": "A wristwatch is worn on the wrist to track time.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a wristwatch?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target worn on the wrist?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/7": {
+    "exp": "objects that can spray water jets",
+    "description": "objects that can spray water jets",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target capable of spraying water jets?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/8": {
+    "exp": "items capable of ejecting water columns",
+    "description": "items capable of ejecting water columns",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target capable of ejecting water columns?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/10": {
+    "exp": "objects soaked by water",
+    "description": "objects soaked by water",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target soaked by water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/14": {
+    "exp": "the cat playing with its owner on the lawn.",
+    "description": "the cat playing with its owner on the lawn.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the lawn?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/20": {
+    "exp": "the grayish-white dog(s) on the left side of the frame.",
+    "description": "the grayish-white dog(s) on the left side of the frame.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a dog?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target grayish-white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the left side of the frame?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/24": {
+    "exp": "Which dog(s) on the left side of the screen are gray and white?",
+    "description": "The dogs on the left side of the screen are gray and white.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the dog on the left side of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the dog gray and white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/29": {
+    "exp": "Which dog(s) are watching their owner and playmate(s)?",
+    "description": "Dogs are watching their owner and playmates.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a dog?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/34": {
+    "exp": "the dog playing with the hostess.",
+    "description": "the dog playing with the hostess.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a dog?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/44": {
+    "exp": "the dog that moves from the right to the left wagging its tail.",
+    "description": "the dog that moves from the right to the left wagging its tail.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00906/49": {
+    "exp": "Which person(s) is/ are wearing a pink strappy top?",
+    "description": "The target is wearing a pink strappy top.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a pink strappy top?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/51": {
+    "exp": "Which person(s) are wearing a pink tank top?",
+    "description": "Targets are wearing a pink tank top.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00906/52": {
+    "exp": "the person playing with the dog(s) on the lawn.",
+    "description": "the person playing with the dog(s) on the lawn.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the lawn?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/74": {
+    "exp": "portable electronic timekeeping device(s) designed for carrying or wearing.",
+    "description": "portable electronic timekeeping device(s) designed for carrying or wearing.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a portable electronic timekeeping device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/76": {
+    "exp": "Which portable timekeeping electronic device(s) for people to carry or wear?",
+    "description": "Portable timekeeping electronic devices are for people to carry or wear.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a portable timekeeping electronic device?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/77": {
+    "exp": "portable timekeeping electronic tool(s) carried or worn by people.",
+    "description": "portable timekeeping electronic tool(s) carried or worn by people.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a portable timekeeping electronic tool carried or worn by people?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/79": {
+    "exp": "a water gun(s) designed for firefighting or recreational use, capable of projecting water to great heights or distances, and also used as a tool in engineering contexts.",
+    "description": "a water gun(s) designed for firefighting or recreational use, capable of projecting water to great heights or distances, and also used as a tool in engineering contexts.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a water gun?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/80": {
+    "exp": "tool(s) that can be used for fire fighting with a water gun or for people's entertainment to spray water to a high place or a long distance, and also have the function as an engineering implement.",
+    "description": "tool(s) that can be used for fire fighting with a water gun or for people's entertainment to spray water to a high place or a long distance, and also have the function as an engineering implement.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a water gun?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/81": {
+    "exp": "Which tool(s) can be used for firefighting or for people's entertainment to spray water to a high place or a distant place, and also has the function as an engineering tool?",
+    "description": "Tools can be used for firefighting or for people's entertainment to spray water to a high place or a distant place, and also have the function as an engineering tool.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a tool that can be used for firefighting, for people's entertainment, and as an engineering tool?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/88": {
+    "exp": "Which object(s) are in the bottom right corner of the scene?",
+    "description": "Objects are in the bottom right corner of the scene.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the object in the bottom right corner of the scene?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00906/90": {
+    "exp": "Which dog has a darker fur color?",
+    "description": "The target has a darker fur color.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's fur color darker?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/0": {
+    "exp": "the person wearing a pink floral spaghetti-strap dress.",
+    "description": "the person wearing a pink floral spaghetti-strap dress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/1": {
+    "exp": "the person wearing a pink floral strappy dress.",
+    "description": "the person wearing a pink floral strappy dress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/2": {
+    "exp": "Which person is wearing a pink floral strappy dress?",
+    "description": "The person is wearing a pink floral strappy dress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/3": {
+    "exp": "Which person(s) is/are wearing a pink floral spaghetti-strap dress?",
+    "description": "A person is wearing a pink floral spaghetti-strap dress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/6": {
+    "exp": "Which person is riding on the elephant?",
+    "description": "A person is riding on the elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/22": {
+    "exp": "the person holding a baby elephant with their left hand.",
+    "description": "the person holding a baby elephant with their left hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding a baby elephant with their left hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/36": {
+    "exp": "the person in the center of the frame wearing a pink floral strap dress.",
+    "description": "the person in the center of the frame wearing a pink floral strap dress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in the center of the frame?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/37": {
+    "exp": "the individual dressed in a pink floral sundress located in the middle of the view.",
+    "description": "the individual dressed in a pink floral sundress located in the middle of the view.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a pink dress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the middle of the view?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/38": {
+    "exp": "Which individual is located in the center of the view, wearing a pink floral sundress?",
+    "description": "An individual is located in the center of the view, wearing a pink floral sundress.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an individual?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target located in the center of the view?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a pink sundress?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/39": {
+    "exp": "the person riding on the elephant.",
+    "description": "the person riding on the elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/40": {
+    "exp": "the individual seated on the elephant.",
+    "description": "the individual seated on the elephant.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target seated on the elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/51": {
+    "exp": "the person leading the small elephant with his left hand.",
+    "description": "the person leading the small elephant with his left hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/52": {
+    "exp": "the individual holding a small elephant in his left hand.",
+    "description": "the individual holding a small elephant in his left hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding a small elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target holding the elephant in his left hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-4jhRyZILBc/53": {
+    "exp": "Which individual is leading a small elephant with his left hand?",
+    "description": "The individual is leading a small elephant with his left hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an elephant?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target small?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/0": {
+    "exp": "the objects playing the musical instruments",
+    "description": "the objects playing the musical instruments",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/6": {
+    "exp": "cowboy hat",
+    "description": "cowboy hat",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cowboy hat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/8": {
+    "exp": "herbivorous animals of the Equus genus in the Equidae family of the Perissodactyla order",
+    "description": "herbivorous animals of the Equus genus in the Equidae family of the Perissodactyla order",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a herbivore?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the Equidae family?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/12": {
+    "exp": "the organ",
+    "description": "the organ",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an organ?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/17": {
+    "exp": "the horse(s) grazing on the grass.",
+    "description": "the horse(s) grazing on the grass.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a horse?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/18": {
+    "exp": "the horse(s) that is/are grazing on the grass.",
+    "description": "the horse(s) that is/are grazing on the grass.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the grass?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/19": {
+    "exp": "Which horse is eating grass on the grassland?",
+    "description": "The horse is eating grass on the grassland.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a horse?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the grassland?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/20": {
+    "exp": "Which horse(s) is/are grazing on the grass?",
+    "description": "Horses are grazing on the grass.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a horse?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/21": {
+    "exp": "the person wearing a black short-sleeved shirt and black pants.",
+    "description": "the person wearing a black short-sleeved shirt and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a black short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/22": {
+    "exp": "the person(s) wearing a black short-sleeved shirt and black pants.",
+    "description": "the person(s) wearing a black short-sleeved shirt and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/23": {
+    "exp": "Which person is wearing a black short-sleeved shirt and black pants?",
+    "description": "A person is wearing a black short-sleeved shirt and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a black shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/24": {
+    "exp": "the person(s) who is/are dressed in a black short-sleeved shirt and black trousers.",
+    "description": "the person(s) who is/are dressed in a black short-sleeved shirt and black trousers.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target dressed in a black short-sleeved shirt and black trousers?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/25": {
+    "exp": "Which person(s) are wearing a black short-sleeved shirt and black pants?",
+    "description": "The targets are wearing a black short-sleeved shirt and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a black short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/26": {
+    "exp": "the person(s) on the right side of the frame.",
+    "description": "the person(s) on the right side of the frame.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the right side of the frame?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/27": {
+    "exp": "the person(s) on the right side of the picture.",
+    "description": "the person(s) on the right side of the picture.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the right side of the picture?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/28": {
+    "exp": "Which person(s) is/are on the right side of the picture?",
+    "description": "A person is on the right side of the picture.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the right side of the picture?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/29": {
+    "exp": "Which person(s) are on the right side of the frame?",
+    "description": "One or more persons are on the right side of the frame.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the right side of the frame?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/30": {
+    "exp": "the person wearing a red checked shirt and black pants.",
+    "description": "the person wearing a red checked shirt and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a red shirt and black pants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/32": {
+    "exp": "Which person is wearing a red plaid shirt and black pants?",
+    "description": "A person is wearing a red plaid shirt and black pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a red plaid shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/35": {
+    "exp": "the person sitting on a haystack.",
+    "description": "the person sitting on a haystack.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on a haystack?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/36": {
+    "exp": "the person sitting on the haystack.",
+    "description": "the person sitting on the haystack.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on the haystack?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target sitting on the haystack?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/51": {
+    "exp": "Which person(s) is/are sitting on the stool?",
+    "description": "The target is sitting on the stool.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target sitting on the stool?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/53": {
+    "exp": "headwear(s).",
+    "description": "headwear(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a headwear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/54": {
+    "exp": "clothing item(s) worn on the head.",
+    "description": "clothing item(s) worn on the head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a clothing item?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target worn on the head?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/55": {
+    "exp": "Which item(s) of clothing is/are worn on the head?",
+    "description": "Items of clothing worn on the head are the target.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an item of clothing?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target worn on the head?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/56": {
+    "exp": "article(s) of clothing worn on the head.",
+    "description": "article(s) of clothing worn on the head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an article of clothing?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target worn on the head?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00356/57": {
+    "exp": "Which headwear(s) is/are worn in the video?",
+    "description": "Headwear is worn in the video.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a headwear?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/0": {
+    "exp": "the goldfish with black scales.",
+    "description": "the goldfish with black scales.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/1": {
+    "exp": "goldfish with black scales.",
+    "description": "goldfish with black scales.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/2": {
+    "exp": "Which goldfish has black scales?",
+    "description": "A goldfish has black scales.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/5": {
+    "exp": "the goldfish with only orange scale(s).",
+    "description": "the goldfish with only orange scale(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having only orange scales?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/7": {
+    "exp": "Which goldfish(es) have scales that are only orange?",
+    "description": "Goldfish have scales that are only orange.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's scales orange?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/8": {
+    "exp": "the goldfish(es) closest to the water surface.",
+    "description": "the goldfish(es) closest to the water surface.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/12": {
+    "exp": "Which goldfish is/are closest to the water surface?",
+    "description": "The goldfish is closest to the water surface.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target closest to the water surface?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/16": {
+    "exp": "Which goldfish is/are closest to the camera at the beginning of the video?",
+    "description": "The target is closest to the camera at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/910bf878/18": {
+    "exp": "Which goldfish is closer to the bottom of the water?",
+    "description": "The target goldfish is closer to the bottom of the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target closer to the bottom of the water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/21": {
+    "exp": "the goldfish that is the farthest from the camera at the beginning of the video.",
+    "description": "the goldfish that is the farthest from the camera at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/910bf878/22": {
+    "exp": "Which goldfish is the farthest from the camera at the beginning of the video?",
+    "description": "The goldfish that is the farthest from the camera at the beginning of the video is the target.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/910bf878/23": {
+    "exp": "Which goldfish is/are farthest from the camera at the beginning of the video?",
+    "description": "The goldfish is the farthest from the camera at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/910bf878/28": {
+    "exp": "the goldfish under another goldfish.",
+    "description": "the goldfish under another goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target under another goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/29": {
+    "exp": "Which goldfish is/are under another goldfish?",
+    "description": "A goldfish is under another goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target under another goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/32": {
+    "exp": "Which goldfish is on top of the other goldfish?",
+    "description": "One goldfish is on top of the other goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on top of the other goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/35": {
+    "exp": "Which goldfish is on top of another goldfish?",
+    "description": "A target is on top of another goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on top of another goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/39": {
+    "exp": "the goldfish moving from left to right.",
+    "description": "the goldfish moving from left to right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/910bf878/41": {
+    "exp": "the fish with a forked tail, specifically a goldfish.",
+    "description": "the fish with a forked tail, specifically a goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's tail forked?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/43": {
+    "exp": "Which goldfish has a forked caudal fin?",
+    "description": "A goldfish has a forked caudal fin.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's caudal fin forked?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/44": {
+    "exp": "fork-tailed goldfish(es).",
+    "description": "fork-tailed goldfish(es).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fork-tailed goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target fork-tailed?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/49": {
+    "exp": "the circular caudal fin goldfish(es).",
+    "description": "the circular caudal fin goldfish(es).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's caudal fin circular?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/50": {
+    "exp": "Which fish(es) have a round tail and are of the goldfish variety?",
+    "description": "Fish have a round tail and are of the goldfish variety.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's tail round?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/60": {
+    "exp": "the goldfish with black scales.",
+    "description": "the goldfish with black scales.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's color black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/61": {
+    "exp": "Which is the goldfish that has black scales?",
+    "description": "The goldfish that has black scales is the target.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/62": {
+    "exp": "Which goldfish is characterized by its black scales?",
+    "description": "A goldfish is characterized by black scales.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target characterized by black scales?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/63": {
+    "exp": "the orange-scaled goldfish.",
+    "description": "the orange-scaled goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target orange?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/65": {
+    "exp": "Which object is the goldfish that only has orange scales?",
+    "description": "The goldfish that only has orange scales is the object.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target orange?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/69": {
+    "exp": "the goldfish nearest to the lens.",
+    "description": "the goldfish nearest to the lens.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target nearest to the lens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/71": {
+    "exp": "Which goldfish is nearest to the lens?",
+    "description": "The goldfish nearest to the lens is the target.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target nearest to the lens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/73": {
+    "exp": "Which goldfish is closer to the bottom of the water?",
+    "description": "A goldfish is closer to the bottom of the water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target closer to the bottom of the water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/77": {
+    "exp": "Which goldfish is the most distant from the lens?",
+    "description": "The target is the most distant from the lens.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the most distant from the lens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/80": {
+    "exp": "Which goldfish is situated underneath another goldfish?",
+    "description": "A goldfish is situated underneath another goldfish.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target underneath another goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/82": {
+    "exp": "Which goldfish is positioned on top of another one?",
+    "description": "A goldfish is positioned on top of another one.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target positioned on top of another one?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/84": {
+    "exp": "the goldfish moving from left to right.",
+    "description": "the goldfish moving from left to right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/910bf878/85": {
+    "exp": "Which object is the goldfish that is moving from left to right?",
+    "description": "The goldfish that is moving from left to right is the object.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/910bf878/90": {
+    "exp": "the round goldfish with a fishtail.",
+    "description": "the round goldfish with a fishtail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a goldfish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target round?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/bbc485d6/18": {
+    "exp": "Which entity is capable of prolonged survival in water?",
+    "description": "An entity is capable of prolonged survival in water.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target capable of prolonged survival in water?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/a938c6b2/17": {
+    "exp": "Which object(s) are rapidly pedaling?",
+    "description": "Objects are rapidly pedaling.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/a938c6b2/37": {
+    "exp": "the green eco-friendly objects powered by foot pedals.",
+    "description": "the green eco-friendly objects powered by foot pedals.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an eco-friendly object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target green?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/a938c6b2/38": {
+    "exp": "the objects that operate on foot pedal power and are environmentally friendly.",
+    "description": "the objects that operate on foot pedal power and are environmentally friendly.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a foot pedal powered environmentally friendly object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/0": {
+    "exp": "utensils for washing things",
+    "description": "utensils for washing things",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a utensil for washing things?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/16": {
+    "exp": "green pot(s).",
+    "description": "green pot(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a pot?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target green?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/17": {
+    "exp": "Which pot(s) is/are green?",
+    "description": "Target is green.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target green?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/24": {
+    "exp": "the washbasin that appears last in the picture.",
+    "description": "the washbasin that appears last in the picture.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/val/00007/28": {
+    "exp": "the pot that is placed at the top of the picture.",
+    "description": "the pot that is placed at the top of the picture.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target placed at the top of the picture?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/29": {
+    "exp": "Which pot(s) is/are placed at the top of the screen?",
+    "description": "Pots are placed at the top of the screen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a pot?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target at the top of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/30": {
+    "exp": "the basin that is placed on the top of the picture.",
+    "description": "the basin that is placed on the top of the picture.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a basin?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target placed on the top of the picture?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00007/51": {
+    "exp": "the third pink pot that appears in the picture and is placed in the green pot.",
+    "description": "the third pink pot that appears in the picture and is placed in the green pot.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-B2oGkg1qSI/8": {
+    "exp": "the barbell plate(s) that lies flat on the floor.",
+    "description": "the barbell plate(s) that lies flat on the floor.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a barbell plate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target flat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-B2oGkg1qSI/25": {
+    "exp": "the object(s) held under a man's hand.",
+    "description": "the object(s) held under a man's hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target held under a man's hand?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-B2oGkg1qSI/26": {
+    "exp": "the object(s) that is/are held under the hand of a man.",
+    "description": "the object(s) that is/are held under the hand of a man.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target under the hand of a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-B2oGkg1qSI/30": {
+    "exp": "container(s) for storing items.",
+    "description": "container(s) for storing items.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a container?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-B2oGkg1qSI/31": {
+    "exp": "Which container(s) is/are for storing items?",
+    "description": "Containers are for storing items.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a container?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-B2oGkg1qSI/32": {
+    "exp": "Which container(s) are used for storing items?",
+    "description": "Containers are used for storing items.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target used for storing items?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-B2oGkg1qSI/34": {
+    "exp": "Which creature may switch the basketball to be held under the right hand?",
+    "description": "A creature may switch the basketball to be held under the right hand.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-B2oGkg1qSI/37": {
+    "exp": "the creature that may switch the basketball to be held under the right hand.",
+    "description": "the creature that may switch the basketball to be held under the right hand.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/4": {
+    "exp": "the object(s) holding a basketball.",
+    "description": "the object(s) holding a basketball.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/8": {
+    "exp": "the object(s) bouncing a ball inside the basketball court.",
+    "description": "the object(s) bouncing a ball inside the basketball court.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "UVO/all/0XHT4ID7Wkk/10": {
+    "exp": "Which object(s) is/are bouncing the ball inside the basketball court?",
+    "description": "Objects are bouncing the ball inside the basketball court.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target inside the basketball court?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/11": {
+    "exp": "the object(s) bouncing the ball inside the basketball court.",
+    "description": "the object(s) bouncing the ball inside the basketball court.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/12": {
+    "exp": "Which object(s) is/are bouncing a ball inside the basketball court?",
+    "description": "An object is bouncing a ball inside the basketball court.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/15": {
+    "exp": "Which ball game(s) is/are also a physical contact sports centered around hands?",
+    "description": "Ball games are also a physical contact sports centered around hands.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a physical contact sports?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/16": {
+    "exp": "ball game(s), which are sports involving physical contact and primarily the use of hands.",
+    "description": "ball game(s), which are sports involving physical contact and primarily the use of hands.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sport?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/22": {
+    "exp": "Which basketball(s) are orange-red?",
+    "description": "Basketballs are orange-red.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target orange-red?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/23": {
+    "exp": "the basketball(s) moving up and down.",
+    "description": "the basketball(s) moving up and down.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0XHT4ID7Wkk/24": {
+    "exp": "the basketball that moves up and down.",
+    "description": "the basketball that moves up and down.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0XHT4ID7Wkk/26": {
+    "exp": "Which basketball(s) is/are moving up and down?",
+    "description": "Targets are moving up and down.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0XHT4ID7Wkk/33": {
+    "exp": "Which animal(s) is/are primate(s)?",
+    "description": "Primates are animals.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/34": {
+    "exp": "animal(s) belonging to the order Primata.",
+    "description": "animal(s) belonging to the order Primata.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal belonging to the order Primata?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/35": {
+    "exp": "Which primate(s) can be seen?",
+    "description": "Primates can be seen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/42": {
+    "exp": "the object that is bouncing the ball within the basketball court.",
+    "description": "the object that is bouncing the ball within the basketball court.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/46": {
+    "exp": "Which sport involves a ball and physical confrontation centered around hands?",
+    "description": "A sport involves a ball and physical confrontation centered around hands.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a sport?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/47": {
+    "exp": "the orange basketballs.",
+    "description": "the orange basketballs.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a basketball?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target orange?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0XHT4ID7Wkk/51": {
+    "exp": "the basketball oscillating vertically.",
+    "description": "the basketball oscillating vertically.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0XHT4ID7Wkk/53": {
+    "exp": "Which basketball is oscillating vertically?",
+    "description": "The basketball is oscillating vertically.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/--yCUKj4Oq4/3": {
+    "exp": "Which person(s) is/are wearing gray shorts with their upper body uncovered?",
+    "description": "A person is wearing gray shorts with their upper body uncovered.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing gray shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/21": {
+    "exp": "the person wearing a white short-sleeved shirt and black shorts.",
+    "description": "the person wearing a white short-sleeved shirt and black shorts.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a short-sleeved shirt?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/24": {
+    "exp": "the person who wears a white short-sleeved shirt and black short pants.",
+    "description": "the person who wears a white short-sleeved shirt and black short pants.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a white short-sleeved shirt and black short pants?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/26": {
+    "exp": "the person(s) lifting a barbell.",
+    "description": "the person(s) lifting a barbell.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/27": {
+    "exp": "the person who is holding the barbell.",
+    "description": "the person who is holding the barbell.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/28": {
+    "exp": "Which person is holding the barbell?",
+    "description": "A person is holding the barbell.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/29": {
+    "exp": "Which person(s) is/are lifting a barbell?",
+    "description": "Persons are lifting a barbell.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/31": {
+    "exp": "the person(s) on the yellow and green mat.",
+    "description": "the person(s) on the yellow and green mat.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the mat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/62": {
+    "exp": "the equipment(s) that is/are commonly used by weightlifters.",
+    "description": "the equipment(s) that is/are commonly used by weightlifters.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a piece of equipment?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/65": {
+    "exp": "the individuals seated on the equipment.",
+    "description": "the individuals seated on the equipment.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "UVO/all/--yCUKj4Oq4/66": {
+    "exp": "safety precautions for cushioning and shock absorption.",
+    "description": "safety precautions for cushioning and shock absorption.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a safety precaution?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/67": {
+    "exp": "item that provide a clean and conforts surface when doing exercise.",
+    "description": "item that provide a clean and conforts surface when doing exercise.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an item?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/68": {
+    "exp": "the individual in the white short-sleeve and black shorts.",
+    "description": "the individual in the white short-sleeve and black shorts.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing white short sleeves and black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing white short sleeves and black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing white short sleeves and black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing white short sleeves and black shorts?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/69": {
+    "exp": "the person who is doing push-ups.",
+    "description": "the person who is doing push-ups.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a person?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/--yCUKj4Oq4/70": {
+    "exp": "the individual under pressure.",
+    "description": "the individual under pressure.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target under pressure?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/5eh2MbjEyXs/25": {
+    "exp": "the yellow strip made from two or more strands of cotton, hemp, brown or metal wires, tied on the fence.",
+    "description": "the yellow strip made from two or more strands of cotton, hemp, brown or metal wires, tied on the fence.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a yellow strip?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target yellow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target tied on the fence?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/5eh2MbjEyXs/26": {
+    "exp": "the yellow cord consisting of two or more types of threads like cotton, hemp, brown or metal, attached to a fence.",
+    "description": "the yellow cord consisting of two or more types of threads like cotton, hemp, brown or metal, attached to a fence.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cord?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target yellow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target attached to a fence?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/5eh2MbjEyXs/35": {
+    "exp": "entities capable of maintaining balance in difficult circumstances.",
+    "description": "entities capable of maintaining balance in difficult circumstances.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target capable of maintaining balance in difficult circumstances?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/0": {
+    "exp": "animals from the Erinaceinae subfamily of the order Eulipotyphla",
+    "description": "animals from the Erinaceinae subfamily of the order Eulipotyphla",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a member of the Erinaceinae subfamily?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/5": {
+    "exp": "What animal could potentially be consumed?",
+    "description": "An animal could potentially be consumed.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a consumable animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/7": {
+    "exp": "What is the object that makes the hedgehog excited?",
+    "description": "The object that makes the hedgehog excited is the target.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the object that makes the hedgehog excited?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/8": {
+    "exp": "animals that might eat mealworms",
+    "description": "animals that might eat mealworms",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal that eats mealworms?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/9": {
+    "exp": "creatures that may consume mealworms",
+    "description": "creatures that may consume mealworms",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature that may consume mealworms?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/13": {
+    "exp": "animal(s) of the genus Erinaceus of the family Erinaceidae of the order Insectivora.",
+    "description": "animal(s) of the genus Erinaceus of the family Erinaceidae of the order Insectivora.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a member of the genus Erinaceus?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a member of the family Erinaceidae?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a member of the order Insectivora?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/15": {
+    "exp": "animal(s) of the Erinaceidae family and Erinaceus genus in the order Insectivora.",
+    "description": "animal(s) of the Erinaceidae family and Erinaceus genus in the order Insectivora.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a member of the Erinaceus genus?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/26": {
+    "exp": "Which organism(s) have a gray-brown color and spikes?",
+    "description": "Organisms have a gray-brown color and spikes.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target gray-brown?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target spiky?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/28": {
+    "exp": "the object(s) that sticks its/their head out to snatch food.",
+    "description": "the object(s) that sticks its/their head out to snatch food.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bird?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/32": {
+    "exp": "the object(s) that is/are feeding the hedgehog.",
+    "description": "the object(s) that is/are feeding the hedgehog.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/40": {
+    "exp": "the yellow mealworm(s).",
+    "description": "the yellow mealworm(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a mealworm?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target yellow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/43": {
+    "exp": "Which worm(s) are yellow in color?",
+    "description": "Worms are yellow in color",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target yellow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/44": {
+    "exp": "the worm(s) carried in the mouth by a hedgehog.",
+    "description": "the worm(s) carried in the mouth by a hedgehog.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a worm?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/val/00423/48": {
+    "exp": "the beetle(s) belonging to the family Ptiliidae, known as powder beetles.",
+    "description": "the beetle(s) belonging to the family Ptiliidae, known as powder beetles.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a beetle belonging to the family Ptiliidae?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a powder beetle?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/1": {
+    "exp": "the object(s) in the ocean on the right side of the screen that is/are moving from right to left in a black swimsuit.",
+    "description": "the object(s) in the ocean on the right side of the screen that is/are moving from right to left in a black swimsuit.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-G_tgkmqChg/5": {
+    "exp": "the object(s) under the man's foot on the right side of the screen.",
+    "description": "the object(s) under the man's foot on the right side of the screen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target under the man's foot on the right side of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/8": {
+    "exp": "Which object(s) is/are under the man's foot on the right side of the screen?",
+    "description": "An object is under the man's foot on the right side of the screen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target under the man's foot?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/9": {
+    "exp": "the object(s) carrying people moving from right to left.",
+    "description": "the object(s) carrying people moving from right to left.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-G_tgkmqChg/10": {
+    "exp": "the object(s) carrying people and moving from right to left.",
+    "description": "the object(s) carrying people and moving from right to left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target carrying people?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/14": {
+    "exp": "the object(s) that depends on the driving force of the waves to glide.",
+    "description": "the object(s) that depends on the driving force of the waves to glide.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/16": {
+    "exp": "the object(s) that depends on the power of the wave to glide.",
+    "description": "the object(s) that depends on the power of the wave to glide.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/18": {
+    "exp": "the white object(s).",
+    "description": "the white object(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/19": {
+    "exp": "white object(s).",
+    "description": "white object(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/20": {
+    "exp": "Which object(s) is/are white?",
+    "description": "Objects are white.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/21": {
+    "exp": "Which object(s) are white?",
+    "description": "Objects are white.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/23": {
+    "exp": "Which creature might fall into the sea?",
+    "description": "A creature might fall into the sea.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/24": {
+    "exp": "the creature that might fall into the sea.",
+    "description": "the creature that might fall into the sea.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature that might fall into the sea?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/29": {
+    "exp": "the object beneath the man's feet on the right side of the frame.",
+    "description": "the object beneath the man's feet on the right side of the frame.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target beneath the man's feet and on the right side of the frame?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/30": {
+    "exp": "the item at the man on the right's feet.",
+    "description": "the item at the man on the right's feet.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target at the man on the right's feet?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/31": {
+    "exp": "Which object is located under the foot of the man on the right side of the screen?",
+    "description": "The object is located under the foot of the man on the right side of the screen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target located under the foot of the man on the right side of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/34": {
+    "exp": "Which entity is transferring humans from the right towards the left?",
+    "description": "An entity is transferring humans from the right towards the left.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an entity?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/35": {
+    "exp": "the entity sliding with the force of the sea waves.",
+    "description": "the entity sliding with the force of the sea waves.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target sliding with the force of the sea waves?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/38": {
+    "exp": "the white object.",
+    "description": "the white object.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/39": {
+    "exp": "Which object is white?",
+    "description": "The object is white.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/40": {
+    "exp": "Which is the white object?",
+    "description": "The target is the white object.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a white object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-G_tgkmqChg/42": {
+    "exp": "exercise equipment coated with materials that reduce water resistance.",
+    "description": "exercise equipment coated with materials that reduce water resistance.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target exercise equipment?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/6": {
+    "exp": "the object(s) that is/are seized by people and swings left and right, and has red and gray stripes.",
+    "description": "the object(s) that is/are seized by people and swings left and right, and has red and gray stripes.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0H3dSeJ58Hc/8": {
+    "exp": "the object(s) that is/are caught by people and swings left and right, and has red and gray stripes.",
+    "description": "the object(s) that is/are caught by people and swings left and right, and has red and gray stripes.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/0H3dSeJ58Hc/10": {
+    "exp": "the object(s) wearing a black one-piece swimsuit.",
+    "description": "the object(s) wearing a black one-piece swimsuit.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing a black one-piece swimsuit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/11": {
+    "exp": "Which object(s) is/are wearing a black one-piece swimsuit?",
+    "description": "An object is wearing a black one-piece swimsuit.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target wearing a black one-piece swimsuit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/18": {
+    "exp": "the yellow plank-like object(s) floating on the sea surface.",
+    "description": "the yellow plank-like object(s) floating on the sea surface.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a plank-like object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target yellow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/19": {
+    "exp": "the yellow plate-shaped object(s) soaking in the sea surface.",
+    "description": "the yellow plate-shaped object(s) soaking in the sea surface.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target yellow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target plate-shaped?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target soaking in the sea surface?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/25": {
+    "exp": "Which object(s) is/are being stepped on and moving across the water surface?",
+    "description": "Objects are being stepped on and moving across the water surface.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a rock?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/29": {
+    "exp": "creature(s) that belong(s) to the primate category.",
+    "description": "creature(s) that belong(s) to the primate category.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/30": {
+    "exp": "creature(s) that belongs/belong to the primate group.",
+    "description": "creature(s) that belongs/belong to the primate group.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/0H3dSeJ58Hc/31": {
+    "exp": "the creature that belongs to the primate(s).",
+    "description": "the creature that belongs to the primate(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/e727099f/8": {
+    "exp": "Which rider(s) are in the leading position at the end of the video?",
+    "description": "Riders are in the leading position at the end of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/e727099f/9": {
+    "exp": "the rider who may seize the first place ahead of others at the end of the video.",
+    "description": "the rider who may seize the first place ahead of others at the end of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/e727099f/10": {
+    "exp": "the rider who may take the first place by leading others at the end of the video.",
+    "description": "the rider who may take the first place by leading others at the end of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/e727099f/12": {
+    "exp": "Which rider(s) are potentially in the lead to win at the end of the video?",
+    "description": "Riders are potentially in the lead to win at the end of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/e727099f/16": {
+    "exp": "the entity capable of aerial transportation.",
+    "description": "the entity capable of aerial transportation.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target capable of aerial transportation?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/e727099f/17": {
+    "exp": "the individual falling from the motorcycle.",
+    "description": "the individual falling from the motorcycle.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an individual?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/8": {
+    "exp": "the largest individual cow.",
+    "description": "the largest individual cow.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target the largest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/9": {
+    "exp": "the largest cattle.",
+    "description": "the largest cattle.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the largest cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/10": {
+    "exp": "Which cow is the largest in size?",
+    "description": "The target is the largest in size.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the largest in size?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/11": {
+    "exp": "the biggest ox.",
+    "description": "the biggest ox.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the biggest ox?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/12": {
+    "exp": "Which cow is the largest?",
+    "description": "Target is the largest.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the largest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/13": {
+    "exp": "the ox with the largest horns.",
+    "description": "the ox with the largest horns.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an ox?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having the largest horns?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/14": {
+    "exp": "the cow with the largest horns.",
+    "description": "the cow with the largest horns.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's horn the largest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/16": {
+    "exp": "the cow with the largest horn.",
+    "description": "the cow with the largest horn.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's horn the largest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/18": {
+    "exp": "the cow that is farthest from the camera.",
+    "description": "the cow that is farthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target farthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/19": {
+    "exp": "the cow that is the furthest from the camera.",
+    "description": "the cow that is the furthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target the furthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/20": {
+    "exp": "Which cow is the farthest from the camera?",
+    "description": "The target is the farthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the farthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/21": {
+    "exp": "Which cow is farthest from the camera?",
+    "description": "The target is farthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target farthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/25": {
+    "exp": "the smallest cattle. .",
+    "description": "the smallest cattle. .",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target the smallest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/26": {
+    "exp": "the cow with the smallest horns.",
+    "description": "the cow with the smallest horns.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's horn the smallest?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/897066e3/28": {
+    "exp": "the cow with the smallest horn.",
+    "description": "the cow with the smallest horn.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cow?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's horn the smallest horn?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/4": {
+    "exp": "the zebra(s) on the left side of the video's initial frame.",
+    "description": "the zebra(s) on the left side of the video's initial frame.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "OVIS/train/aa348c45/5": {
+    "exp": "the zebra on the left side of the picture at the beginning of the video.",
+    "description": "the zebra on the left side of the picture at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "OVIS/train/aa348c45/6": {
+    "exp": "Which zebra is on the left side of the screen at the start of the video?",
+    "description": "The target is on the left side of the screen at the start of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "OVIS/train/aa348c45/23": {
+    "exp": "Which zebra(s) is/are on the far right of the scene at the beginning of the video?",
+    "description": "The target is on the far right of the scene at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "OVIS/train/aa348c45/24": {
+    "exp": "the zebra(s) that does not move from its position.",
+    "description": "the zebra(s) that does not move from its position.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in a fixed position?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/26": {
+    "exp": "Which zebra(s) did not move its/their position?",
+    "description": "The zebra(s) did not move its position.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's position static?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/27": {
+    "exp": "the zebra that doesn't move its position.",
+    "description": "the zebra that doesn't move its position.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's position static?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/28": {
+    "exp": "Which zebra(s) didn't change its/their position?",
+    "description": "Zebras didn't change their position.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the Zebra's position unchanged?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/29": {
+    "exp": "Which zebra is younger?",
+    "description": "The zebra is younger.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target ...?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/30": {
+    "exp": "the zebra that is younger.",
+    "description": "the zebra that is younger.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/31": {
+    "exp": "the zebra which is younger.",
+    "description": "the zebra which is younger.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/32": {
+    "exp": "the object moving from left to right.",
+    "description": "the object moving from left to right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "OVIS/train/aa348c45/34": {
+    "exp": "Which zebra moves across the screen from left to right?",
+    "description": "Target moves across the screen from left to right.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "OVIS/train/aa348c45/41": {
+    "exp": "the zebra that didn't move.",
+    "description": "the zebra that didn't move.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/aa348c45/46": {
+    "exp": "Which donkey is positioned adjacent to the zebra?",
+    "description": "The target donkey is positioned adjacent to the zebra.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a donkey?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target positioned adjacent to the zebra?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/0": {
+    "exp": "the cat with black stripes on its head and a black tail.",
+    "description": "the cat with black stripes on its head and a black tail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having black stripes on its head and a black tail?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/1": {
+    "exp": "the cat(s) with black stripes on the head and the black tail.",
+    "description": "the cat(s) with black stripes on the head and the black tail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having black stripes on the head and a black tail?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/3": {
+    "exp": "Which cat(s) has/have black stripes on its/their head and a black tail?",
+    "description": "Cats have black stripes on their heads and black tails.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's stripes black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's stripes on the head?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's tail black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's stripes on the head?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/5": {
+    "exp": "the cat(s) with mostly white hair and brown stripes on the back.",
+    "description": "the cat(s) with mostly white hair and brown stripes on the back.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's hair mostly white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's stripes on the back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/7": {
+    "exp": "the cat(s) with mostly white hair and brown stripes on its back.",
+    "description": "the cat(s) with mostly white hair and brown stripes on its back.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's hair mostly white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's stripes on its back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/9": {
+    "exp": "the object(s) holding the cat toy consistently.",
+    "description": "the object(s) holding the cat toy consistently.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target holding the cat toy consistently?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/10": {
+    "exp": "the object(s) that always holds the cat teaser.",
+    "description": "the object(s) that always holds the cat teaser.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/11": {
+    "exp": "Which object(s) is/are always holding a cat teaser?",
+    "description": "An object is always holding a cat teaser.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/12": {
+    "exp": "Which object(s) is/are holding the cat toy throughout the video?",
+    "description": "Objects are holding the cat toy throughout the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/15": {
+    "exp": "Which cat doesn't move its position but only moves its head?",
+    "description": "The cat doesn't move its position but only moves its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's position not moving?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/16": {
+    "exp": "Which cat(s) remain stationary except for their head movement?",
+    "description": "Cats remain stationary except for their head movement.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/18": {
+    "exp": "the cat that is always being attracted by another cat playing with a cat teaser.",
+    "description": "the cat that is always being attracted by another cat playing with a cat teaser.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/27": {
+    "exp": "the object(s) that appear(s) several times in the lower right corner of the video early on and then disappears later.",
+    "description": "the object(s) that appear(s) several times in the lower right corner of the video early on and then disappears later.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/29": {
+    "exp": "Which object(s) appeared several times in the lower right corner of the screen in the early stage of the video and then disappeared in the later stage?",
+    "description": "Objects appeared several times in the lower right corner of the screen in the early stage of the video and then disappeared in the later stage.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/30": {
+    "exp": "the object that appears several times in the lower right corner of the screen in the early stage of the video and disappears in the later stage of the video.",
+    "description": "the object that appears several times in the lower right corner of the screen in the early stage of the video and disappears in the later stage of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/31": {
+    "exp": "Which object(s) appear(s) several times in the bottom right corner of the video early on and then disappears later?",
+    "description": "Objects appear several times in the bottom right corner of the video early on and then disappear later.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/42": {
+    "exp": "Which creature makes a brief appearance in the video?",
+    "description": "A creature makes a brief appearance in the video.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/44": {
+    "exp": "the creature that briefly appears in the picture / scene.",
+    "description": "the creature that briefly appears in the picture / scene.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/46": {
+    "exp": "the creature that briefly appears in the picture / the creature(s) that briefly appears / appear in the picture.",
+    "description": "the creature that briefly appears in the picture / the creature(s) that briefly appears / appear in the picture.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/47": {
+    "exp": "the creature that appears briefly in the picture / screen.",
+    "description": "the creature that appears briefly in the picture / screen.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/51": {
+    "exp": "Which cat is relatively less active?",
+    "description": "A cat is relatively less active.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/52": {
+    "exp": "Which cat is relatively inactive?",
+    "description": "A cat is relatively inactive.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/53": {
+    "exp": "the cat that is relatively less active.",
+    "description": "the cat that is relatively less active.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/60": {
+    "exp": "the cat with black stripes on its head and a black tail.",
+    "description": "the cat with black stripes on its head and a black tail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target having black stripes on its head and a black tail?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/70": {
+    "exp": "Which cat is staying in the same place but moving its head?",
+    "description": "A cat is staying in the same place but moving its head.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target staying in the same place?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/71": {
+    "exp": "Which feline is stationary but moving its head?",
+    "description": "A feline is stationary but moving its head.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/72": {
+    "exp": "the feline continuously drawn to another one playing with a cat teaser.",
+    "description": "the feline continuously drawn to another one playing with a cat teaser.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a feline?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/77": {
+    "exp": "Which object is constantly playing with the cat toy?",
+    "description": "The object is constantly playing with the cat toy.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cat toy?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/78": {
+    "exp": "the hand that appeared in the lower right corner of the screen at the beginning of the video and then disappeared at the end.",
+    "description": "the hand that appeared in the lower right corner of the screen at the beginning of the video and then disappeared at the end.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/79": {
+    "exp": "the hand that was visible in the bottom right of the frame during the early part of the video and then vanished in the later part.",
+    "description": "the hand that was visible in the bottom right of the frame during the early part of the video and then vanished in the later part.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "MOSE/train/08746283/83": {
+    "exp": "a creature with a more stable character.",
+    "description": "a creature with a more stable character.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a creature with a more stable character?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "MOSE/train/08746283/84": {
+    "exp": "an entity that stimulates the hunting instincts of another creature.",
+    "description": "an entity that stimulates the hunting instincts of another creature.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an entity?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/0": {
+    "exp": "the fish with a white belly and a black back.",
+    "description": "the fish with a white belly and a black back.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target white on the belly and black on the back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/1": {
+    "exp": "the fish with a white abdomen and a black back.",
+    "description": "the fish with a white abdomen and a black back.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's abdomen white?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's back black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/10": {
+    "exp": "the fish(es) on the right side of the screen.",
+    "description": "the fish(es) on the right side of the screen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the right side of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/20": {
+    "exp": "Which fish is farthest from the camera?",
+    "description": "The fish is farthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target farthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/21": {
+    "exp": "the fish that is the farthest from the camera.",
+    "description": "the fish that is the farthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the farthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/22": {
+    "exp": "Which fish is/are the farthest from the camera?",
+    "description": "The target is the farthest from the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the farthest from the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/24": {
+    "exp": "the fish that always keeps its mouth open and has a curved tail.",
+    "description": "the fish that always keeps its mouth open and has a curved tail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's tail curved?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/25": {
+    "exp": "Which fish has its mouth always open and its tail curved?",
+    "description": "The fish has its mouth always open and its tail curved.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's mouth always open?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/30": {
+    "exp": "the fish with a white belly and a black back.",
+    "description": "the fish with a white belly and a black back.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target's belly white and back black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's belly white and back black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target's belly white and back black?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a fish with a white belly and a black back?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/41": {
+    "exp": "Which fish is located on the right part of the screen?",
+    "description": "The fish is located on the right part of the screen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target located on the right part of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/46": {
+    "exp": "Which fish is the furthest away from the camera lens?",
+    "description": "The furthest fish from the camera lens is the target.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target the furthest fish from the camera lens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target the furthest from the camera lens?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/48": {
+    "exp": "the fish that keeps its mouth open and has a curved tail.",
+    "description": "the fish that keeps its mouth open and has a curved tail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target keeping its mouth open and having a curved tail?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "OVIS/train/1eac1aff/49": {
+    "exp": "Which is the fish that keeps its mouth open and has a twisted tail?",
+    "description": "The fish keeps its mouth open and has a twisted tail.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a fish?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target keeping its mouth open and having a twisted tail?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/8": {
+    "exp": "Which cylindrical object(s) are placed on the floor in the top left corner of the scene?",
+    "description": "Cylindrical objects are placed on the floor in the top left corner of the scene.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a cylindrical object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target cylindrical?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target in the top left corner of the scene?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/9": {
+    "exp": "the blue rectangular object(s) laid on the floor.",
+    "description": "the blue rectangular object(s) laid on the floor.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target blue?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target rectangular?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target on the floor?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/12": {
+    "exp": "textile(s) made of cotton, linen, etc., used for covering floors.",
+    "description": "textile(s) made of cotton, linen, etc., used for covering floors.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a textile?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target a textile?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/13": {
+    "exp": "ground covering(s) made of materials such as cotton and linen.",
+    "description": "ground covering(s) made of materials such as cotton and linen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a ground covering?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/15": {
+    "exp": "floor covering(s) made of materials such as cotton and linen.",
+    "description": "floor covering(s) made of materials such as cotton and linen.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a floor covering?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/32": {
+    "exp": "the floor covering made of cotton and linen materials.",
+    "description": "the floor covering made of cotton and linen materials.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a floor covering?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-oEGRKfiMuU/37": {
+    "exp": "objects that can make the floor clean.",
+    "description": "objects that can make the floor clean.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/13": {
+    "exp": "the object(s) bouncing a basketball.",
+    "description": "the object(s) bouncing a basketball.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/14": {
+    "exp": "the object(s) that is/are slapping the basketball.",
+    "description": "the object(s) that is/are slapping the basketball.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/16": {
+    "exp": "Which object(s) are bouncing a basketball?",
+    "description": "Objects are bouncing a basketball.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/19": {
+    "exp": "What object(s) are constantly hitting the floor?",
+    "description": "Objects are constantly hitting the floor.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-QhxoSeCqYE/20": {
+    "exp": "the object(s) that are continually hitting the floor.",
+    "description": "the object(s) that are continually hitting the floor.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/22": {
+    "exp": "the object(s) that is/are constantly hitting the floor.",
+    "description": "the object(s) that is/are constantly hitting the floor.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "UVO/all/-QhxoSeCqYE/23": {
+    "exp": "the equipment used in hand-centered combat sports.",
+    "description": "the equipment used in hand-centered combat sports.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target equipment?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/27": {
+    "exp": "Which equipment(s) is/are used in hand-centered combat sports?",
+    "description": "Equipment is used in hand-centered combat sports.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a piece of equipment?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/29": {
+    "exp": "Which primate(s) is/are facing the camera?",
+    "description": "Primates are facing the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target facing the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/30": {
+    "exp": "Which primate(s) are facing the camera?",
+    "description": "Primates are facing the camera.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a primate?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target facing the camera?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "UVO/all/-QhxoSeCqYE/32": {
+    "exp": "the objects playing the basketballs.",
+    "description": "the objects playing the basketballs.",
+    "type": 2,
+    "qa_complete": []
+  },
+  "UVO/all/-QhxoSeCqYE/37": {
+    "exp": "the man dribbling the ball between his legs.",
+    "description": "the man dribbling the ball between his legs.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a man?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/0": {
+    "exp": "the manual tool composed of handle, plier jaws, and plier mouth",
+    "description": "the manual tool composed of handle, plier jaws, and plier mouth",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a manual tool?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/2": {
+    "exp": "instruments that is utilized for traps",
+    "description": "instruments that is utilized for traps",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an instrument?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/3": {
+    "exp": "the object on the right side of the screen wearing green clothes",
+    "description": "the object on the right side of the screen wearing green clothes",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target on the right side of the screen?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target wearing green clothes?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/8": {
+    "exp": "bottle Lid",
+    "description": "bottle Lid",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a bottle lid?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/9": {
+    "exp": "the shovel-shaped object used for collecting garbage",
+    "description": "the shovel-shaped object used for collecting garbage",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a shovel-shaped object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target shovel-shaped?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/11": {
+    "exp": "the object that prevents small animals from climbing out of the hole",
+    "description": "the object that prevents small animals from climbing out of the hole",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/12": {
+    "exp": "the object used to block small creatures from escaping through the hole",
+    "description": "the object used to block small creatures from escaping through the hole",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/13": {
+    "exp": "the trap",
+    "description": "the trap",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a trap?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/14": {
+    "exp": "the liquid container made of plastic material",
+    "description": "the liquid container made of plastic material",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a liquid container?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/16": {
+    "exp": "the object used to simulate small animals",
+    "description": "the object used to simulate small animals",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/17": {
+    "exp": "the thing used for imitating small animals",
+    "description": "the thing used for imitating small animals",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a thing?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/18": {
+    "exp": "the animal captured by the trap",
+    "description": "the animal captured by the trap",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target in the trap?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/19": {
+    "exp": "Which is the animal captured by the trap?",
+    "description": "The animal captured by the trap is the target.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target an animal?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/20": {
+    "exp": "the object(s) with a handle above the pit.",
+    "description": "the object(s) with a handle above the pit.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target having a handle above the pit?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/25": {
+    "exp": "the larger blue object(s).",
+    "description": "the larger blue object(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target blue?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target larger?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/28": {
+    "exp": "the shovel-like tool(s) used for collecting trash.",
+    "description": "the shovel-like tool(s) used for collecting trash.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a shovel-like tool?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target shovel-shaped?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/32": {
+    "exp": "Which tool(s) are used for scooping trash?",
+    "description": "Tools are used for scooping trash.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a tool?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/40": {
+    "exp": "the object(s) that are put into the sieve and eventually fall into the pit.",
+    "description": "the object(s) that are put into the sieve and eventually fall into the pit.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/41": {
+    "exp": "the object(s) that was/were put into the dustpan and finally fell into the pit.",
+    "description": "the object(s) that was/were put into the dustpan and finally fell into the pit.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/42": {
+    "exp": "Which object(s) was/were put into the dustpan and finally fell into the pit?",
+    "description": "Objects were put into the dustpan and finally fell into the pit.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/43": {
+    "exp": "the object(s) that is/are put into the dustpan and finally falls/fall into the pit.",
+    "description": "the object(s) that is/are put into the dustpan and finally falls/fall into the pit.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/44": {
+    "exp": "Which object(s) were put into the sieve and then fell into the pit?",
+    "description": "Objects were put into the sieve and then fell into the pit.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/45": {
+    "exp": "the semi-transparent cylindrical object(s).",
+    "description": "the semi-transparent cylindrical object(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target cylindrical?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/46": {
+    "exp": "semi-translucent columnar object(s).",
+    "description": "semi-translucent columnar object(s).",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a columnar object?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/48": {
+    "exp": "Which object(s) are semi-transparent cylindrical in shape?",
+    "description": "Objects are semi-transparent cylindrical in shape.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target semi-transparent?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "question": "Is the target cylindrical?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  },
+  "LV-VIS/test/00756/50": {
+    "exp": "Which object(s) is/ are in the person's hand at the start of the video?",
+    "description": "The object in the person's hand at the start of the video is",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/51": {
+    "exp": "Which object(s) is/are in the person's hand at the beginning of the video?",
+    "description": "The object is in the person's hand at the beginning of the video.",
+    "type": 1,
+    "qa_complete": []
+  },
+  "LV-VIS/test/00756/61": {
+    "exp": "the hand tool consisting of a handle, jaw for gripping, and jaw for cutting.",
+    "description": "the hand tool consisting of a handle, jaw for gripping, and jaw for cutting.",
+    "type": 3,
+    "qa_complete": [
+      {
+        "question": "Is the target a hand tool?",
+        "options": {
+          "A": "Yes",
+          "B": "No"
+        },
+        "correct_answer": "A"
+      }
+    ]
+  }
+}

@@ -4,7 +4,6 @@ import sys
 from typing import Optional, List, Dict, Any
 
 import json
-from transformers import AutoTokenizer, AutoProcessor, AutoModelForCausalLM
 import torch
 from tqdm import tqdm
 from torch.multiprocessing import set_start_method
@@ -19,8 +18,9 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
+from utils.vl_backend import load_vlm, vl_chat
+
 OUTPUT = "./output_query_qa"
-OVIS_CHECKPOINT = "path/to/AIDC-AI/Ovis2.5-9B"
 
 
 def main(args):
@@ -40,15 +40,22 @@ def main(args):
     os.makedirs(output_dir, exist_ok=True)
 
     # load data
-    root = 'path/to/revos'
-    img_folder = root
+    root = '/home/cvlab18/media/data2/datasets/revos'
+    img_folder = os.path.join(root, 'JPEGImages')
     meta_file = os.path.join(root, "meta_expressions_valid_.json")
     with open(meta_file, "r") as f:
         data = json.load(f)["videos"]
 
-    video_list = list(data.key())
+    video_list = list(data.keys())
 
     random.shuffle(video_list)
+
+    # Sharding: each invocation handles video_list[shard_id::num_shards].
+    shard_id = args.shard_id
+    num_shards = args.num_shards
+    if num_shards > 1:
+        video_list = video_list[shard_id::num_shards]
+        print(f'[shard {shard_id}/{num_shards}] handling {len(video_list)} videos')
 
     # create subprocess
     thread_num = args.num_gpus
@@ -69,7 +76,8 @@ def main(args):
             sub_video_list = video_list[i * per_thread_video_num: (i + 1) * per_thread_video_num]
         p = mp.Process(target=sub_processor, args=(lock, i, args, data,
                                                    output_dir,
-                                                   img_folder, sub_video_list, result_dict))
+                                                   img_folder, sub_video_list, result_dict,
+                                                   shard_id))
         p.start()
         processes.append(p)
 
@@ -81,10 +89,24 @@ def main(args):
 
     result_dict = dict(result_dict)
     all_results = {}
-    for pid, results in result_dict.items():
-        all_results.update(results)
+    for pid in range(thread_num):
+        key = str(pid)
+        if key in result_dict:
+            all_results.update(result_dict[key])
+        else:
+            # worker died before pushing to mp.Manager; recover from disk checkpoint
+            ckpt = os.path.join(output_dir, f'revos_result_shard{shard_id}_pid{pid}.json')
+            if os.path.exists(ckpt):
+                with open(ckpt) as f:
+                    all_results.update(json.load(f))
+                print(f'[main] recovered worker {pid} from {ckpt}')
 
-    json.dump(all_results, open(os.path.join(output_dir, "revos_query_qa.json"), "w"), indent=4)
+    if num_shards == 1:
+        out_name = "revos_query_qa.json"
+    else:
+        out_name = f"revos_query_qa_shard{shard_id}.json"
+    json.dump(all_results, open(os.path.join(output_dir, out_name), "w"), indent=4)
+    print(f'[main] saved {len(all_results)} entries to {out_name}')
 
 
 convert_query_prompt = """
@@ -117,31 +139,9 @@ def convert_query_with_vlm(query, vl_model):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True,
-        max_pixels=896 * 896
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=2048,
-            thinking_budget=1536,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=1536)
+    raw_response = response  # keep for debug
     # Extract JSON from the response (assuming the model outputs valid JSON)
     try:
         # Find the JSON part (after any thinking steps)
@@ -155,8 +155,11 @@ def convert_query_with_vlm(query, vl_model):
         type = int(output_json.get("type", -1))
 
 
-    except Exception:
-        # Fallback if JSON parsing fails
+    except Exception as _e:
+        # Fallback if JSON parsing fails — print raw response for debugging.
+        print(f"[convert_query] JSON parse failed ({_e.__class__.__name__}: {_e}). "
+              f"query={query!r}\n--- RAW (last 800 chars) ---\n{raw_response[-800:]}\n--- END ---",
+              flush=True)
         result = ''
         type = -1
 
@@ -213,31 +216,8 @@ def generate_qa_with_vlm(description, type, vl_model):
         }
     ]
 
-    input_ids, pixel_values, grid_thws = vl_model.preprocess_inputs(
-        messages=messages,
-        add_generation_prompt=True,
-        enable_thinking=True,
-        max_pixels=896 * 896
-    )
-    input_ids = input_ids.cuda()
-    pixel_values = pixel_values.cuda().to(vl_model.dtype) if pixel_values is not None else None
-    grid_thws = grid_thws.cuda() if grid_thws is not None else None
-
-    with torch.no_grad():
-        outputs = vl_model.generate(
-            inputs=input_ids,
-            pixel_values=pixel_values,
-            grid_thws=grid_thws,
-            enable_thinking=True,
-            enable_thinking_budget=True,
-            max_new_tokens=2048,
-            thinking_budget=1536,
-            do_sample=True,
-            eos_token_id=vl_model.text_tokenizer.eos_token_id,
-            pad_token_id=vl_model.text_tokenizer.pad_token_id
-        )
-
-    response = vl_model.text_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    response = vl_chat(vl_model, messages, thinking=True,
+                       max_new_tokens=10000, thinking_budget=1536)
 
     # Extract JSON from the response
     try:
@@ -292,7 +272,7 @@ def extract_qa_generation_output(data_string: str) -> Optional[List[Dict[str, An
                     })
                 return results
 
-def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_list, result_dict):
+def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_list, result_dict, shard_id=0):
     text = 'processor %d' % pid
     with lock:
         progress = tqdm(
@@ -301,21 +281,22 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
             desc=text,
             ncols=0
         )
-    torch.cuda.set_device(pid)
-    device = torch.device(f"cuda:{pid}")
+    vl_model = load_vlm()  # HTTP-only client, no GPU needed
 
-    ovis_model = AutoModelForCausalLM.from_pretrained(
-        OVIS_CHECKPOINT,
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
-        trust_remote_code=True,
-    ).to(device)
-
+    # Resume: load this worker's prior checkpoint if present
+    checkpoint_path = os.path.join(save_path_prefix, f'revos_result_shard{shard_id}_pid{pid}.json')
     results = {}
+    if os.path.exists(checkpoint_path):
+        try:
+            with open(checkpoint_path, 'r') as f:
+                results = json.load(f)
+            print(f'[worker {pid}] resumed with {len(results)} existing entries')
+        except Exception as e:
+            print(f'[worker {pid}] checkpoint load failed ({e}); starting fresh')
+            results = {}
 
     # 1. For each video
     for video in video_list:
-        torch.cuda.empty_cache()
         metas = []  # list[dict], length is number of expressions
 
         expressions = data[video]["expressions"]
@@ -329,17 +310,21 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
         meta = metas
 
         # 2. For each expression
-        for exp_id in expressions:
-            exp = meta[exp_id]["exp"]
-            exp_id = meta[exp_id]["exp_id"]
+        for m in tqdm(metas, desc=f'exps {video}', leave=False, position=pid + 1):
+            exp = m["exp"]
+            exp_id = m["exp_id"]
             video_exp = f'{video}/{exp_id}'
+
+            # Resume: skip already-processed expressions
+            if video_exp in results:
+                continue
 
             # exp = 'Which shoe(s) is/are on the right foot of the man?'
 
             try:
                 exp = exp.strip()
                 for query_round in range(args.max_query_num):
-                    description, type = convert_query_with_vlm(exp, ovis_model)
+                    description, type = convert_query_with_vlm(exp, vl_model)
                     if description and type != -1:
                         break
 
@@ -350,7 +335,7 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
 
                 if type == 3:
                     for query_round in range(args.max_query_num):
-                        qa_complete = generate_qa_with_vlm(description, type, ovis_model)
+                        qa_complete = generate_qa_with_vlm(description, type, vl_model)
                         if qa_complete:
                             break
                 else:
@@ -369,10 +354,14 @@ def sub_processor(lock, pid, args, data, save_path_prefix, img_folder, video_lis
                     f.write(f'{video}/{exp_id}\n')
                 continue
 
+        # Incremental checkpoint: write this worker's partial results after each video.
+        # If the run dies, partial JSONs survive.
+        checkpoint_path = os.path.join(save_path_prefix, f'revos_result_shard{shard_id}_pid{pid}.json')
+        with open(checkpoint_path, 'w') as f:
+            json.dump(results, f, indent=2)
+
         with lock:
             progress.update(1)
-
-    # json.dump(results, open(os.path.join(save_path_prefix, f'result_{pid}.json'), 'w'), indent=2)
 
     result_dict[str(pid)] = results
     with lock:
@@ -388,6 +377,12 @@ if __name__ == '__main__':
     parser.add_argument("--max_query_num", default=3, type=int)
     parser.add_argument('--num_gpus', '-ng', type=int, required=True,
                         help='number of CUDA gpus to run on. mutually exclusive with \'gpu_ids\'')
+    parser.add_argument('--shard-id', dest='shard_id', type=int, default=0,
+                        help='this invocation processes video_list[shard_id::num_shards]')
+    parser.add_argument('--num-shards', dest='num_shards', type=int, default=1,
+                        help='total number of parallel shards across invocations')
     args = parser.parse_args()
+    if not (0 <= args.shard_id < args.num_shards):
+        raise ValueError(f'shard_id must be in [0, num_shards); got shard_id={args.shard_id}, num_shards={args.num_shards}')
 
     main(args)

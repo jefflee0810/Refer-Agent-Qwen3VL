@@ -2,189 +2,161 @@
 import json
 import os
 import argparse
-from typing import Dict
 import warnings
+from typing import Dict, List, Optional
+
 from PIL import Image
 import torch
-from transformers import CLIPProcessor, CLIPModel
+from transformers import CLIPModel, CLIPProcessor
 from tqdm import tqdm
-from pyiqa import create_metric
-import os
 
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
-warnings.filterwarnings('ignore')
+warnings.filterwarnings("ignore")
 
 
 class ImageScorer:
-    def __init__(self, clip_model_name="path/to/openai/clip-vit-base-patch32",
-                 iqa_metric_name="brisque", iqa_metric_mode="NR"):
+    """CLIP-based scorer with per-video batched image/text encoding."""
+
+    def __init__(self, clip_model_name: str = "openai/clip-vit-base-patch32"):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-
-        # Initialize CLIP model
-        self.clip_model = CLIPModel.from_pretrained(clip_model_name)
+        self.clip_model = CLIPModel.from_pretrained(clip_model_name).to(self.device)
+        self.clip_model.eval()
         self.clip_processor = CLIPProcessor.from_pretrained(clip_model_name)
-        self.clip_model.to(self.device)
 
-        # Initialize IQA model
-        self.iqa_model = create_metric(iqa_metric_name, metric_mode=iqa_metric_mode, device=self.device)
+    @torch.no_grad()
+    def encode_images(
+        self,
+        image_paths: List[str],
+        batch_size: int = 32,
+        progress_desc: Optional[str] = None,
+    ) -> torch.Tensor:
+        feats = []
+        idx_iter = range(0, len(image_paths), batch_size)
+        if progress_desc is not None:
+            idx_iter = tqdm(idx_iter, desc=progress_desc, leave=False)
+        for i in idx_iter:
+            batch = [Image.open(p).convert("RGB") for p in image_paths[i:i + batch_size]]
+            inputs = self.clip_processor(images=batch, return_tensors="pt")
+            pixel_values = inputs["pixel_values"].to(self.device)
+            vision_out = self.clip_model.vision_model(pixel_values=pixel_values)
+            pooled = vision_out.pooler_output
+            f = self.clip_model.visual_projection(pooled)
+            f = f / f.norm(dim=-1, keepdim=True)
+            feats.append(f)
+        return torch.cat(feats, dim=0)
 
+    @torch.no_grad()
+    def encode_texts(self, texts: List[str]) -> torch.Tensor:
+        inputs = self.clip_processor(
+            text=texts, return_tensors="pt", padding=True, truncation=True
+        )
+        input_ids = inputs["input_ids"].to(self.device)
+        attention_mask = inputs["attention_mask"].to(self.device)
+        text_out = self.clip_model.text_model(
+            input_ids=input_ids, attention_mask=attention_mask
+        )
+        pooled = text_out.pooler_output
+        t = self.clip_model.text_projection(pooled)
+        t = t / t.norm(dim=-1, keepdim=True)
+        return t
+
+    @torch.no_grad()
     def calculate_clip_score(self, image_path: str, text: str) -> float:
+        """Single-pair convenience wrapper. Returns cosine similarity."""
         if not text.strip():
-            return 0.0  # Return raw score for empty text
+            return 0.0
+        img_feat = self.encode_images([image_path])
+        txt_feat = self.encode_texts([text])
+        return float((img_feat @ txt_feat.T).item())
 
-        image = Image.open(image_path).convert('RGB')
-        inputs = self.clip_processor(text=[text], images=image, return_tensors="pt", padding=True)
-        inputs = {k: v.to(self.device) for k, v in inputs.items()}
-
-        with torch.no_grad():
-            outputs = self.clip_model(**inputs)
-            raw_score = outputs.logits_per_image.cpu().numpy()[0][0]
-
-        return float(raw_score)  # Return raw score for later normalization
-
-    def calculate_iqa_score(self, image_path: str) -> float:
-        score = self.iqa_model(image_path).cpu().item()
-        return float(score)  # Return raw score for later normalization
-
-    def normalize_scores(self, scores_dict: Dict[str, float], invert: bool = False) -> Dict[str, float]:
-        """Normalize scores to 1-10 scale using mean and std"""
+    @staticmethod
+    def normalize_scores(scores_dict: Dict[str, float], invert: bool = False) -> Dict[str, float]:
         if not scores_dict:
             return {}
-
         scores = list(scores_dict.values())
-        mean_score = sum(scores) / len(scores)
-        std_score = (sum((x - mean_score) ** 2 for x in scores) / len(scores)) ** 0.5
-
-        # Avoid division by zero
-        if std_score == 0:
+        mean = sum(scores) / len(scores)
+        std = (sum((x - mean) ** 2 for x in scores) / len(scores)) ** 0.5
+        if std == 0:
             return {k: 5.5 for k in scores_dict.keys()}
-
-        normalized = {}
-        for key, score in scores_dict.items():
-            # Z-score normalization then map to 1-10
-            z_score = (score - mean_score) / std_score
-            if invert:  # For metrics where lower is better (like BRISQUE)
-                z_score = -z_score
-            # Map z-score to 1-10 range (assuming z-scores mostly in [-3, 3])
-            norm_score = 5.5 + 1.5 * z_score
-            normalized[key] = max(1.0, min(10.0, norm_score))
-
-        return normalized
+        out = {}
+        for k, s in scores_dict.items():
+            z = (s - mean) / std
+            if invert:
+                z = -z
+            out[k] = max(1.0, min(10.0, 5.5 + 1.5 * z))
+        return out
 
 
-def batch_score_videos(base_dir: str,
-                       weights: Dict[str, float] = None,
-                       iqa_metric_name: str = "brisque") -> Dict[str, Dict]:
-    """Batch score all image frames in multiple video directories"""
-    meta = json.load(open('path/to/revos/meta_expressions_valid_.json'))['videos']
+def batch_score_videos(base_dir: str) -> Dict[str, Dict]:
+    meta = json.load(
+        open("/home/cvlab18/media/data2/datasets/revos/meta_expressions_valid_.json")
+    )["videos"]
 
-    scorer = ImageScorer(iqa_metric_name=iqa_metric_name)
+    scorer = ImageScorer()
     video_scores = {}
 
-    if weights is None:
-        weights = {'clip': 1.0, 'iqa': 0}
+    supported_formats = (".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp")
 
-    # Normalize weights
-    total_weight = sum(weights.values())
-    if total_weight > 0:
-        weights = {k: v / total_weight for k, v in weights.items()}
-
-    for video_dir_name in tqdm(meta.keys()):
+    for video_dir_name in tqdm(meta.keys(), desc="videos"):
         video_path = os.path.join(base_dir, video_dir_name)
-        supported_formats = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.webp')
 
-        image_files = sorted([f for f in os.listdir(video_path)
-                              if f.lower().endswith(supported_formats)],
-                             key=lambda x: int(''.join(filter(str.isdigit, x))))
-
+        image_files = sorted(
+            [f for f in os.listdir(video_path) if f.lower().endswith(supported_formats)],
+            key=lambda x: int("".join(filter(str.isdigit, x))),
+        )
         if not image_files:
             print(f"No supported image files found in '{video_dir_name}'.")
             continue
 
-        # print(f"\nProcessing video: {video_dir_name}")
+        image_paths = [os.path.join(video_path, f) for f in image_files]
+        image_feats = scorer.encode_images(
+            image_paths, progress_desc=f"images {video_dir_name}"
+        )
 
-        # Initialize video scores structure
-        video_scores[video_dir_name] = {}
-        video_scores[video_dir_name]['CLIP'] = {}
+        exp_ids = list(meta[video_dir_name]["expressions"].keys())
+        texts = [meta[video_dir_name]["expressions"][e]["exp"] for e in exp_ids]
+        text_feats = scorer.encode_texts(texts)
+        sim_matrix = (image_feats @ text_feats.T).cpu().numpy()
 
-        # Calculate raw IQA scores once for all images in this video
-        # print("Calculating IQA scores...")
-        raw_iqa_scores = {}
-        for image_file in (image_files):
-            image_path = os.path.join(video_path, image_file)
-            raw_iqa_scores[image_file] = scorer.calculate_iqa_score(image_path)
-
-        # Normalize IQA scores for this video
-        # For BRISQUE, lower is better, so we use invert=True
-        invert_iqa = iqa_metric_name.lower() in ['brisque', 'niqe']  # Add other metrics that need inversion
-        normalized_iqa_scores = scorer.normalize_scores(raw_iqa_scores, invert=invert_iqa)
-        video_scores[video_dir_name]['IQA'] = normalized_iqa_scores
-
-        # Calculate CLIP scores for each expression
-        for exp_id in meta[video_dir_name]['expressions'].keys():
-            # print(f"Processing expression {exp_id}...")
-            reference_text = meta[video_dir_name]['expressions'][exp_id]['exp']
-            raw_clip_scores = {}
-
-            # First pass: calculate all raw CLIP scores for this expression
-            for image_file in (image_files):
-                image_path = os.path.join(video_path, image_file)
-                raw_clip_scores[image_file] = scorer.calculate_clip_score(image_path, reference_text)
-
-            # Normalize CLIP scores for this expression
-            normalized_clip_scores = scorer.normalize_scores(raw_clip_scores, invert=False)
-
-            # Calculate weighted scores
-            exp_scores = {}
-            for image_file in image_files:
-                clip_score = normalized_clip_scores[image_file]
-                iqa_score = normalized_iqa_scores[image_file]
-                weighted_score = weights['clip'] * clip_score + weights['iqa'] * iqa_score
-
-                exp_scores[image_file] = {
-                    'clip': round(clip_score, 2),
-                    'weighted_score': round(weighted_score, 2)
-                }
-
-            video_scores[video_dir_name]['CLIP'][exp_id] = exp_scores
+        video_scores[video_dir_name] = {"CLIP": {}}
+        for j, exp_id in enumerate(
+            tqdm(exp_ids, desc=f"CLIP exps {video_dir_name}", leave=False)
+        ):
+            raw = {image_files[i]: float(sim_matrix[i, j]) for i in range(len(image_files))}
+            normalized = scorer.normalize_scores(raw)
+            video_scores[video_dir_name]["CLIP"][exp_id] = {
+                f: {"clip": round(normalized[f], 2),
+                    "weighted_score": round(normalized[f], 2)}
+                for f in image_files
+            }
 
     return video_scores
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Video frame quality scoring tool.')
-    parser.add_argument('--input_dir', default='path/to/revos',
-                        help='Path to the directory containing video frame folders.')
-    parser.add_argument('--weights', '-w', default='1.0,0',
-                        help='Weights for (clip, iqa).')
-    parser.add_argument('--output', '-o', default='path/to/video_scores_revos.json',
-                        help='Output JSON file path.')
-    parser.add_argument('--iqa_metric', default='brisque',
-                        help='IQA metric name from pyiqa.')
-
+    parser = argparse.ArgumentParser(description="CLIP frame–expression scoring (ReVOS).")
+    parser.add_argument(
+        "--input_dir",
+        default="/home/cvlab18/media/data2/datasets/revos/JPEGImages",
+        help="Directory containing per-video subdirectories of frame images.",
+    )
+    parser.add_argument(
+        "--output", "-o",
+        default="output_concat/revos/CLIP/video_scores_revos.json",
+        help="Output JSON file path.",
+    )
     args = parser.parse_args()
 
     if not os.path.isdir(args.input_dir):
         print(f"Error: Directory not found - {args.input_dir}")
         return
 
-    weight_values = [float(w) for w in args.weights.split(',')]
-    if len(weight_values) != 2:
-        print("Invalid weight format, using default weights.")
-        weights = {'clip': 1.0, 'iqa': 0}
-    else:
-        weights = {
-            'clip': weight_values[0],
-            'iqa': weight_values[1]
-        }
+    print(f"Starting batch CLIP scoring of '{args.input_dir}'...")
+    all_video_scores = batch_score_videos(args.input_dir)
 
-    print(f"Starting batch scoring of video frames in '{args.input_dir}'...")
-    print(f"Using IQA metric: {args.iqa_metric}")
-
-    all_video_scores = batch_score_videos(args.input_dir, weights, args.iqa_metric)
-
-    with open(args.output, 'w', encoding='utf-8') as f:
+    os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
+    with open(args.output, "w", encoding="utf-8") as f:
         json.dump(all_video_scores, f, ensure_ascii=False, indent=2)
 
     print(f"\nAll results saved to: {args.output}")

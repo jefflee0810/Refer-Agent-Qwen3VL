@@ -1,7 +1,3 @@
-LICENSE
-LICENSE_cctorch
-MANIFEST.in
-README.md
 pyproject.toml
 setup.py
 SAM_2.egg-info/PKG-INFO

@@ -17,8 +17,12 @@ AUTHOR_EMAIL = "segment-anything@meta.com"
 LICENSE = "Apache 2.0"
 
 # Read the contents of README file
-with open("README.md", "r", encoding="utf-8") as f:
-    LONG_DESCRIPTION = f.read()
+_readme_path = os.path.join(os.path.dirname(__file__), "README.md")
+if os.path.exists(_readme_path):
+    with open(_readme_path, "r", encoding="utf-8") as f:
+        LONG_DESCRIPTION = f.read()
+else:
+    LONG_DESCRIPTION = DESCRIPTION
 
 # Required dependencies
 REQUIRED_PACKAGES = [
